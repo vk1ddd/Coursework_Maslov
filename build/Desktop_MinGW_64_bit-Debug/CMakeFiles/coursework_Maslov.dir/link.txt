@@ -1,0 +1,3 @@
+C:\Qt\qtcreator-15.0.1\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\coursework_Maslov.dir/objects.a
+C:\Qt\qtcreator-15.0.1\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\coursework_Maslov.dir/objects.a @CMakeFiles\coursework_Maslov.dir\objects1.rsp
+C:\Qt\qtcreator-15.0.1\Tools\mingw1120_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\coursework_Maslov.dir/objects.a -Wl,--no-whole-archive -o coursework_Maslov.exe -Wl,--out-implib,libcoursework_Maslov.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\coursework_Maslov.dir\linkLibs.rsp
