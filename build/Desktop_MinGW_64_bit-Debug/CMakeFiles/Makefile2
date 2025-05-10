@@ -83,12 +83,12 @@ CMakeFiles/coursework_Maslov.dir/all: CMakeFiles/coursework_Maslov_autogen_times
 CMakeFiles/coursework_Maslov.dir/all: CMakeFiles/coursework_Maslov_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target coursework_Maslov"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target coursework_Maslov"
 .PHONY : CMakeFiles/coursework_Maslov.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/coursework_Maslov.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/coursework_Maslov.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/coursework_Maslov.dir/rule
@@ -135,7 +135,7 @@ CMakeFiles/coursework_Maslov_autogen_timestamp_deps.dir/clean:
 CMakeFiles/coursework_Maslov_autogen.dir/all: CMakeFiles/coursework_Maslov_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov_autogen.dir\build.make CMakeFiles/coursework_Maslov_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov_autogen.dir\build.make CMakeFiles/coursework_Maslov_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles --progress-num=6 "Built target coursework_Maslov_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles --progress-num=8 "Built target coursework_Maslov_autogen"
 .PHONY : CMakeFiles/coursework_Maslov_autogen.dir/all
 
 # Build rule for subdir invocation for target.

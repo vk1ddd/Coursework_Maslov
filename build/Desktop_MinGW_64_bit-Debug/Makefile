@@ -199,6 +199,30 @@ coursework_Maslov_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov_autogen.dir\build.make CMakeFiles/coursework_Maslov_autogen.dir/build
 .PHONY : coursework_Maslov_autogen/fast
 
+coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.obj: coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+.PHONY : coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.obj
+
+# target to build an object file
+coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+.PHONY : coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+
+coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.i: coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.s: coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 coursework_Maslov_autogen/mocs_compilation.obj: coursework_Maslov_autogen/mocs_compilation.cpp.obj
 .PHONY : coursework_Maslov_autogen/mocs_compilation.obj
 
@@ -286,6 +310,9 @@ help:
 	@echo ... coursework_Maslov_autogen
 	@echo ... coursework_Maslov_autogen_timestamp_deps
 	@echo ... coursework_Maslov
+	@echo ... coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.obj
+	@echo ... coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.i
+	@echo ... coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.s
 	@echo ... coursework_Maslov_autogen/mocs_compilation.obj
 	@echo ... coursework_Maslov_autogen/mocs_compilation.i
 	@echo ... coursework_Maslov_autogen/mocs_compilation.s
