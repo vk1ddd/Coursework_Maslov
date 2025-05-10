@@ -342,6 +342,6 @@ C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h
  mdp:C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h
  mdp:C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_Maslov_autogen/moc_predefs.h
  mdp:C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h
+C:/Users/ivanu/QT/coursework_Maslov/main.cpp
 C:/Users/ivanu/QT/coursework_Maslov/mainwindow.cpp
  uic:./ui_mainwindow.h
-C:/Users/ivanu/QT/coursework_Maslov/main.cpp

@@ -9,8 +9,9 @@
 	"INCLUDE_DIR" : "C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_Maslov_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Users/ivanu/QT/coursework_Maslov/images/door.png",
+		"C:/Users/ivanu/QT/coursework_Maslov/images/door_open.png",
 		"C:/Users/ivanu/QT/coursework_Maslov/images/handset.png",
+		"C:/Users/ivanu/QT/coursework_Maslov/images/door_close.png",
 		"C:/Users/ivanu/QT/coursework_Maslov/images/intercom.png"
 	],
 	"LOCK_FILE" : "C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/CMakeFiles/coursework_Maslov_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",

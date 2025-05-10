@@ -77,8 +77,9 @@ coursework_Maslov_autogen/timestamp: CMakeFiles/coursework_Maslov.dir/compiler_d
 
 coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/ivanu/QT/coursework_Maslov/resources.qrc
 coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/coursework_Maslov_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
-coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/ivanu/QT/coursework_Maslov/images/door.png
+coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/ivanu/QT/coursework_Maslov/images/door_open.png
 coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/ivanu/QT/coursework_Maslov/images/handset.png
+coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/ivanu/QT/coursework_Maslov/images/door_close.png
 coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/ivanu/QT/coursework_Maslov/images/intercom.png
 coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/./bin/rcc.exe
 coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/./bin/rcc.exe
