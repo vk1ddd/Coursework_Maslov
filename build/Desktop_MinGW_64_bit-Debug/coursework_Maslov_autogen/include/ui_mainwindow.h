@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStackedWidget>
@@ -30,6 +31,7 @@ public:
     QWidget *page_2;
     QWidget *tabIntercom;
     QPushButton *btnKey;
+    QLineEdit *lineEdit;
     QWidget *tabHandset;
     QPushButton *btnOpenFromApt;
 
@@ -76,6 +78,10 @@ public:
         btnKey->setCursor(QCursor(Qt::PointingHandCursor));
         btnKey->setAutoFillBackground(false);
         btnKey->setFlat(true);
+        lineEdit = new QLineEdit(tabIntercom);
+        lineEdit->setObjectName("lineEdit");
+        lineEdit->setGeometry(QRect(80, 20, 331, 71));
+        lineEdit->setCursor(QCursor(Qt::ArrowCursor));
         tabdoor->addTab(tabIntercom, QString());
         tabHandset = new QWidget();
         tabHandset->setObjectName("tabHandset");
@@ -105,6 +111,7 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         tabdoor->setTabText(tabdoor->indexOf(tabDoor), QCoreApplication::translate("MainWindow", "\320\224\320\262\320\265\321\200\321\214", nullptr));
         btnKey->setText(QString());
+        lineEdit->setText(QCoreApplication::translate("MainWindow", "123", nullptr));
         tabdoor->setTabText(tabdoor->indexOf(tabIntercom), QCoreApplication::translate("MainWindow", "\320\224\320\276\320\274\320\276\321\204\320\276\320\275", nullptr));
         btnOpenFromApt->setText(QString());
         tabdoor->setTabText(tabdoor->indexOf(tabHandset), QCoreApplication::translate("MainWindow", "\320\241\321\202\321\200\320\260\320\275\320\270\321\206\320\260", nullptr));

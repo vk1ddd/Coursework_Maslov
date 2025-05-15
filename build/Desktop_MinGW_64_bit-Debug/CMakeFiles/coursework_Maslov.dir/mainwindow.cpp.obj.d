@@ -366,13 +366,21 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qinputmethod.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlocale.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QLineEdit \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qlineedit.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qframe.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextcursor.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextdocument.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qurl.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextformat.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qpen.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextoption.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QPushButton \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qpushbutton.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractbutton.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QStackedWidget \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qstackedwidget.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qframe.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QTabWidget \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QWidget \
