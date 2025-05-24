@@ -322,6 +322,10 @@ CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20memory.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtmochelpers.h \
+ C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_keyreader.cpp \
+ C:/Users/ivanu/QT/coursework_Maslov/keyreader.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QSet \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qset.h \
  C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QMainWindow \

@@ -384,4 +384,10 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QTabWidget \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QWidget \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
+ C:\Users\ivanu\QT\coursework_Maslov\door.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QDateTime \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdatetime.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcalendar.h

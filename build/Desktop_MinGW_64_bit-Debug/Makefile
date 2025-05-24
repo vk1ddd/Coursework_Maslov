@@ -271,6 +271,30 @@ door.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/door.cpp.s
 .PHONY : door.cpp.s
 
+keyreader.obj: keyreader.cpp.obj
+.PHONY : keyreader.obj
+
+# target to build an object file
+keyreader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/keyreader.cpp.obj
+.PHONY : keyreader.cpp.obj
+
+keyreader.i: keyreader.cpp.i
+.PHONY : keyreader.i
+
+# target to preprocess a source file
+keyreader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/keyreader.cpp.i
+.PHONY : keyreader.cpp.i
+
+keyreader.s: keyreader.cpp.s
+.PHONY : keyreader.s
+
+# target to generate assembly for a file
+keyreader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/keyreader.cpp.s
+.PHONY : keyreader.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -319,6 +343,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+visitor.obj: visitor.cpp.obj
+.PHONY : visitor.obj
+
+# target to build an object file
+visitor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/visitor.cpp.obj
+.PHONY : visitor.cpp.obj
+
+visitor.i: visitor.cpp.i
+.PHONY : visitor.i
+
+# target to preprocess a source file
+visitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/visitor.cpp.i
+.PHONY : visitor.cpp.i
+
+visitor.s: visitor.cpp.s
+.PHONY : visitor.s
+
+# target to generate assembly for a file
+visitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/visitor.cpp.s
+.PHONY : visitor.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -343,12 +391,18 @@ help:
 	@echo ... door.obj
 	@echo ... door.i
 	@echo ... door.s
+	@echo ... keyreader.obj
+	@echo ... keyreader.i
+	@echo ... keyreader.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... visitor.obj
+	@echo ... visitor.i
+	@echo ... visitor.s
 .PHONY : help
 
 

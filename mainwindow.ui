@@ -39,7 +39,7 @@
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tabDoor">
      <property name="styleSheet">
@@ -61,14 +61,14 @@
        </rect>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
-      <widget class="QWidget" name="page">
+      <widget class="QWidget" name="lockDoor">
        <property name="styleSheet">
         <string notr="true">border-image: url(:/new/prefix1/images/door_close.png);</string>
        </property>
       </widget>
-      <widget class="QWidget" name="page_2">
+      <widget class="QWidget" name="openDoor">
        <property name="styleSheet">
         <string notr="true">border-image: url(:/new/prefix1/images/door_open.png);</string>
        </property>
@@ -85,7 +85,7 @@
      <attribute name="title">
       <string>Домофон</string>
      </attribute>
-     <widget class="QPushButton" name="btnKey">
+     <widget class="QPushButton" name="btnKeyReader">
       <property name="geometry">
        <rect>
         <x>80</x>

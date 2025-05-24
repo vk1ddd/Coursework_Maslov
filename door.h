@@ -2,7 +2,6 @@
 #define DOOR_H
 
 #pragma once
-
 #include <QObject>
 #include <QDateTime>
 
@@ -10,15 +9,14 @@ class Door : public QObject
 {
     Q_OBJECT
 
-private:
-    bool m_isLocked;
-    QDateTime m_lastOpenedTimestamp;
-
 public:
-    explicit Door(QObject* parent = nullptr);
+    static Door& instance() {
+        static Door _instance;
+        return _instance;
+    }
 
-    bool isLocked() const;
-    QDateTime lastOpened() const;
+    bool isLocked() const { return m_isLocked; }
+    QDateTime lastOpened() const { return m_lastOpenedTimestamp; }
 
 public slots:
     void open();
@@ -29,6 +27,14 @@ public slots:
 signals:
     void doorOpened(const QDateTime& timestamp);
     void doorClosed(const QDateTime& timestamp);
+
+private:
+    Door() : m_isLocked(true) {}
+    Q_DISABLE_COPY(Door)
+
+    bool m_isLocked;
+    QDateTime m_lastOpenedTimestamp;
 };
+
 
 #endif // DOOR_H

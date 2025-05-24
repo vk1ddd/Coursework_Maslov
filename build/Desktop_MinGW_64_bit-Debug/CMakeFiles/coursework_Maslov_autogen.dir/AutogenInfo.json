@@ -260,9 +260,21 @@
 			null
 		],
 		[
+			"C:/Users/ivanu/QT/coursework_Maslov/keyreader.h",
+			"MU",
+			"EWIEGA46WW/moc_keyreader.cpp",
+			null
+		],
+		[
 			"C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/ivanu/QT/coursework_Maslov/visitor.h",
+			"MU",
+			"EWIEGA46WW/moc_visitor.cpp",
 			null
 		]
 	],
@@ -337,8 +349,10 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/ivanu/QT/coursework_Maslov/door.cpp", "MU", null ],
+		[ "C:/Users/ivanu/QT/coursework_Maslov/keyreader.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/main.cpp", "MU", null ],
-		[ "C:/Users/ivanu/QT/coursework_Maslov/mainwindow.cpp", "MU", null ]
+		[ "C:/Users/ivanu/QT/coursework_Maslov/mainwindow.cpp", "MU", null ],
+		[ "C:/Users/ivanu/QT/coursework_Maslov/visitor.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

@@ -27,10 +27,10 @@ public:
     QTabWidget *tabdoor;
     QWidget *tabDoor;
     QStackedWidget *stackedDoor;
-    QWidget *page;
-    QWidget *page_2;
+    QWidget *lockDoor;
+    QWidget *openDoor;
     QWidget *tabIntercom;
-    QPushButton *btnKey;
+    QPushButton *btnKeyReader;
     QLineEdit *lineEditNumber;
     QPushButton *btn1;
     QPushButton *btn2;
@@ -70,14 +70,14 @@ public:
         stackedDoor = new QStackedWidget(tabDoor);
         stackedDoor->setObjectName("stackedDoor");
         stackedDoor->setGeometry(QRect(0, 0, 511, 741));
-        page = new QWidget();
-        page->setObjectName("page");
-        page->setStyleSheet(QString::fromUtf8("border-image: url(:/new/prefix1/images/door_close.png);"));
-        stackedDoor->addWidget(page);
-        page_2 = new QWidget();
-        page_2->setObjectName("page_2");
-        page_2->setStyleSheet(QString::fromUtf8("border-image: url(:/new/prefix1/images/door_open.png);"));
-        stackedDoor->addWidget(page_2);
+        lockDoor = new QWidget();
+        lockDoor->setObjectName("lockDoor");
+        lockDoor->setStyleSheet(QString::fromUtf8("border-image: url(:/new/prefix1/images/door_close.png);"));
+        stackedDoor->addWidget(lockDoor);
+        openDoor = new QWidget();
+        openDoor->setObjectName("openDoor");
+        openDoor->setStyleSheet(QString::fromUtf8("border-image: url(:/new/prefix1/images/door_open.png);"));
+        stackedDoor->addWidget(openDoor);
         tabdoor->addTab(tabDoor, QString());
         tabIntercom = new QWidget();
         tabIntercom->setObjectName("tabIntercom");
@@ -85,12 +85,12 @@ public:
 "#tabIntercom {border-image: url(:/new/prefix1/images/intercom.png);\n"
 "}\n"
 ""));
-        btnKey = new QPushButton(tabIntercom);
-        btnKey->setObjectName("btnKey");
-        btnKey->setGeometry(QRect(80, 470, 111, 101));
-        btnKey->setCursor(QCursor(Qt::PointingHandCursor));
-        btnKey->setAutoFillBackground(false);
-        btnKey->setFlat(true);
+        btnKeyReader = new QPushButton(tabIntercom);
+        btnKeyReader->setObjectName("btnKeyReader");
+        btnKeyReader->setGeometry(QRect(80, 470, 111, 101));
+        btnKeyReader->setCursor(QCursor(Qt::PointingHandCursor));
+        btnKeyReader->setAutoFillBackground(false);
+        btnKeyReader->setFlat(true);
         lineEditNumber = new QLineEdit(tabIntercom);
         lineEditNumber->setObjectName("lineEditNumber");
         lineEditNumber->setGeometry(QRect(120, 60, 271, 61));
@@ -204,8 +204,8 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabdoor->setCurrentIndex(1);
-        stackedDoor->setCurrentIndex(1);
+        tabdoor->setCurrentIndex(0);
+        stackedDoor->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -215,7 +215,7 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         tabdoor->setTabText(tabdoor->indexOf(tabDoor), QCoreApplication::translate("MainWindow", "\320\224\320\262\320\265\321\200\321\214", nullptr));
-        btnKey->setText(QString());
+        btnKeyReader->setText(QString());
         lineEditNumber->setText(QCoreApplication::translate("MainWindow", " 0000", nullptr));
         btn1->setText(QString());
         btn2->setText(QString());
