@@ -1,11 +1,11 @@
 CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.obj: \
  C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\mocs_compilation.cpp \
- C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qmainwindow.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsglobal.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtguiglobal.h \
+ C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_door.cpp \
+ C:/Users/ivanu/QT/coursework_Maslov/door.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobjectdefs.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qnamespace.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qglobal.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,14 +139,6 @@ CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtresource.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qttranslation.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qversiontagging.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtgui-config.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtguiexports.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgets-config.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qwindowdefs.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobjectdefs.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qnamespace.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtmetamacros.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobjectdefs_impl.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
@@ -200,8 +192,6 @@ CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/auto_ptr.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qwindowdefs_win.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qstring.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qchar.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
@@ -312,6 +302,39 @@ CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QDateTime \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdatetime.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcalendar.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlocale.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvariant.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdebug.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtextstream.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qstringconverter_base.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcontiguouscache.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qsharedpointer.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qshareddata.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qsharedpointer_impl.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmap.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qshareddata_impl.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qset.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qhash.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvarlengtharray.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20memory.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtmochelpers.h \
+ C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qmainwindow.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsglobal.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtguiglobal.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtgui-config.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtguiexports.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgets-config.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsexports.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qwindowdefs.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qwindowdefs_win.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmargins.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qaction.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qkeysequence.h \
@@ -324,26 +347,12 @@ CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qcolor.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qrgb.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qrgba64.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qsharedpointer.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qshareddata.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qsharedpointer_impl.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qimage.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qpixelformat.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtransform.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qpolygon.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qregion.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qline.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvariant.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdebug.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtextstream.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qstringconverter_base.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcontiguouscache.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmap.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qshareddata_impl.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qset.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qhash.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvarlengtharray.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20memory.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qpalette.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qbrush.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qfont.h \
@@ -352,5 +361,4 @@ CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qsizepolicy.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qcursor.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qbitmap.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtmochelpers.h
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h

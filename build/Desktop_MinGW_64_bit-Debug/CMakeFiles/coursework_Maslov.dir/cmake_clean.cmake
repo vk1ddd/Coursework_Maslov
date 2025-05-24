@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj.d"
   "CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/coursework_Maslov.dir/door.cpp.obj"
+  "CMakeFiles/coursework_Maslov.dir/door.cpp.obj.d"
   "CMakeFiles/coursework_Maslov.dir/main.cpp.obj"
   "CMakeFiles/coursework_Maslov.dir/main.cpp.obj.d"
   "CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj"

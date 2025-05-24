@@ -247,6 +247,30 @@ coursework_Maslov_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.s
 .PHONY : coursework_Maslov_autogen/mocs_compilation.cpp.s
 
+door.obj: door.cpp.obj
+.PHONY : door.obj
+
+# target to build an object file
+door.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/door.cpp.obj
+.PHONY : door.cpp.obj
+
+door.i: door.cpp.i
+.PHONY : door.i
+
+# target to preprocess a source file
+door.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/door.cpp.i
+.PHONY : door.cpp.i
+
+door.s: door.cpp.s
+.PHONY : door.s
+
+# target to generate assembly for a file
+door.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/door.cpp.s
+.PHONY : door.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -316,6 +340,9 @@ help:
 	@echo ... coursework_Maslov_autogen/mocs_compilation.obj
 	@echo ... coursework_Maslov_autogen/mocs_compilation.i
 	@echo ... coursework_Maslov_autogen/mocs_compilation.s
+	@echo ... door.obj
+	@echo ... door.i
+	@echo ... door.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

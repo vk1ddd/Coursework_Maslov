@@ -229,6 +229,8 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QDateTime \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20memory.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20type_traits.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qalgorithms.h \
@@ -245,6 +247,7 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbytearrayalgorithms.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbytearraylist.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbytearrayview.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcalendar.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qchar.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcompare.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcompare_impl.h \
@@ -257,6 +260,7 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcontiguouscache.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdarwinhelpers.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdatastream.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdatetime.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdebug.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qexceptionhandling.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qflags.h \
@@ -273,6 +277,7 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qiterator.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qline.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlist.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlocale.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlogging.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmalloc.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmap.h \
@@ -510,6 +515,8 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_Maslov_autogen/moc_predefs.h \
+	C:/Users/ivanu/QT/coursework_Maslov/door.cpp \
+	C:/Users/ivanu/QT/coursework_Maslov/door.h \
 	C:/Users/ivanu/QT/coursework_Maslov/main.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/mainwindow.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h \

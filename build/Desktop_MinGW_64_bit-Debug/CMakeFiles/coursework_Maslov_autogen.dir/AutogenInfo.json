@@ -254,6 +254,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/ivanu/QT/coursework_Maslov/door.h",
+			"MU",
+			"EWIEGA46WW/moc_door.cpp",
+			null
+		],
+		[
 			"C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -330,6 +336,7 @@
 	"SETTINGS_FILE" : "C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/CMakeFiles/coursework_Maslov_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/ivanu/QT/coursework_Maslov/door.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/main.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/mainwindow.cpp", "MU", null ]
 	],
