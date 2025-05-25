@@ -21,5 +21,4 @@ public:
     bool isValid(int keyID) const;
 };
 
-
 #endif // KEYREADER_H

@@ -352,6 +352,9 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qcursor.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qbitmap.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ C:\Users\ivanu\QT\coursework_Maslov\apartment.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
  C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_Maslov_autogen/include/ui_mainwindow.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVariant \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvariant.h \
@@ -366,9 +369,22 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qinputmethod.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlocale.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QComboBox \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qcombobox.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qstyleoption.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qvalidator.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qregularexpression.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qslider.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractslider.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qstyle.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabbar.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qrubberband.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qframe.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QLineEdit \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qlineedit.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qframe.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextcursor.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextdocument.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qurl.h \
@@ -386,8 +402,6 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QWidget \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
  C:\Users\ivanu\QT\coursework_Maslov\door.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QDateTime \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdatetime.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcalendar.h

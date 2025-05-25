@@ -30,19 +30,10 @@ MainWindow::MainWindow(QWidget *parent)
     //        Door::instance().open();
     //    }
     //});
-
-    // Настраиваем pushButton так, чтобы он был полностью прозрачным и не «унаследовал» фон родителя
-    ui->btnKeyReader->setFlat(true);
-    ui->btnKeyReader->setAttribute(Qt::WA_TranslucentBackground);  // Делает фон прозрачным
-    ui->btnKeyReader->setAttribute(Qt::WA_StyledBackground, true); // Заставляет кнопку использовать свой stylesheet для отрисовки фона
-    ui->btnKeyReader->setAutoFillBackground(false);
-    ui->btnKeyReader->setStyleSheet("background: none; background-color: transparent; border: none;");
-
 }
 
 MainWindow::~MainWindow()
 {
-
 
     delete ui;
 }

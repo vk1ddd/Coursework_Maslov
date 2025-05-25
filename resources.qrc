@@ -4,5 +4,7 @@
         <file>images/intercom.png</file>
         <file>images/door_close.png</file>
         <file>images/door_open.png</file>
+        <file>images/Building.png</file>
+        <file>images/background.png</file>
     </qresource>
 </RCC>

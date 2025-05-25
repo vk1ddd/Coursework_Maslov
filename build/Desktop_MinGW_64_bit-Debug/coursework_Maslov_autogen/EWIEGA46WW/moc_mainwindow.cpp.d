@@ -198,6 +198,7 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20memory.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20type_traits.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qalgorithms.h \
@@ -338,4 +339,5 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
+  C:/Users/ivanu/QT/coursework_Maslov/apartment.h

@@ -199,6 +199,54 @@ coursework_Maslov_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov_autogen.dir\build.make CMakeFiles/coursework_Maslov_autogen.dir/build
 .PHONY : coursework_Maslov_autogen/fast
 
+accessjournal.obj: accessjournal.cpp.obj
+.PHONY : accessjournal.obj
+
+# target to build an object file
+accessjournal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/accessjournal.cpp.obj
+.PHONY : accessjournal.cpp.obj
+
+accessjournal.i: accessjournal.cpp.i
+.PHONY : accessjournal.i
+
+# target to preprocess a source file
+accessjournal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/accessjournal.cpp.i
+.PHONY : accessjournal.cpp.i
+
+accessjournal.s: accessjournal.cpp.s
+.PHONY : accessjournal.s
+
+# target to generate assembly for a file
+accessjournal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/accessjournal.cpp.s
+.PHONY : accessjournal.cpp.s
+
+apartment.obj: apartment.cpp.obj
+.PHONY : apartment.obj
+
+# target to build an object file
+apartment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/apartment.cpp.obj
+.PHONY : apartment.cpp.obj
+
+apartment.i: apartment.cpp.i
+.PHONY : apartment.i
+
+# target to preprocess a source file
+apartment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/apartment.cpp.i
+.PHONY : apartment.cpp.i
+
+apartment.s: apartment.cpp.s
+.PHONY : apartment.s
+
+# target to generate assembly for a file
+apartment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/apartment.cpp.s
+.PHONY : apartment.cpp.s
+
 coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.obj: coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj
 .PHONY : coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.obj
 
@@ -270,6 +318,30 @@ door.s: door.cpp.s
 door.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/door.cpp.s
 .PHONY : door.cpp.s
+
+journalentry.obj: journalentry.cpp.obj
+.PHONY : journalentry.obj
+
+# target to build an object file
+journalentry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/journalentry.cpp.obj
+.PHONY : journalentry.cpp.obj
+
+journalentry.i: journalentry.cpp.i
+.PHONY : journalentry.i
+
+# target to preprocess a source file
+journalentry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/journalentry.cpp.i
+.PHONY : journalentry.cpp.i
+
+journalentry.s: journalentry.cpp.s
+.PHONY : journalentry.s
+
+# target to generate assembly for a file
+journalentry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/journalentry.cpp.s
+.PHONY : journalentry.cpp.s
 
 keyreader.obj: keyreader.cpp.obj
 .PHONY : keyreader.obj
@@ -343,6 +415,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+securityconsole.obj: securityconsole.cpp.obj
+.PHONY : securityconsole.obj
+
+# target to build an object file
+securityconsole.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/securityconsole.cpp.obj
+.PHONY : securityconsole.cpp.obj
+
+securityconsole.i: securityconsole.cpp.i
+.PHONY : securityconsole.i
+
+# target to preprocess a source file
+securityconsole.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/securityconsole.cpp.i
+.PHONY : securityconsole.cpp.i
+
+securityconsole.s: securityconsole.cpp.s
+.PHONY : securityconsole.s
+
+# target to generate assembly for a file
+securityconsole.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/securityconsole.cpp.s
+.PHONY : securityconsole.cpp.s
+
 visitor.obj: visitor.cpp.obj
 .PHONY : visitor.obj
 
@@ -382,6 +478,12 @@ help:
 	@echo ... coursework_Maslov_autogen
 	@echo ... coursework_Maslov_autogen_timestamp_deps
 	@echo ... coursework_Maslov
+	@echo ... accessjournal.obj
+	@echo ... accessjournal.i
+	@echo ... accessjournal.s
+	@echo ... apartment.obj
+	@echo ... apartment.i
+	@echo ... apartment.s
 	@echo ... coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.obj
 	@echo ... coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.i
 	@echo ... coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.s
@@ -391,6 +493,9 @@ help:
 	@echo ... door.obj
 	@echo ... door.i
 	@echo ... door.s
+	@echo ... journalentry.obj
+	@echo ... journalentry.i
+	@echo ... journalentry.s
 	@echo ... keyreader.obj
 	@echo ... keyreader.i
 	@echo ... keyreader.s
@@ -400,6 +505,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... securityconsole.obj
+	@echo ... securityconsole.i
+	@echo ... securityconsole.s
 	@echo ... visitor.obj
 	@echo ... visitor.i
 	@echo ... visitor.s

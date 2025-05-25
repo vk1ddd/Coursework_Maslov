@@ -254,9 +254,27 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/ivanu/QT/coursework_Maslov/accessjournal.h",
+			"MU",
+			"EWIEGA46WW/moc_accessjournal.cpp",
+			null
+		],
+		[
+			"C:/Users/ivanu/QT/coursework_Maslov/apartment.h",
+			"MU",
+			"EWIEGA46WW/moc_apartment.cpp",
+			null
+		],
+		[
 			"C:/Users/ivanu/QT/coursework_Maslov/door.h",
 			"MU",
 			"EWIEGA46WW/moc_door.cpp",
+			null
+		],
+		[
+			"C:/Users/ivanu/QT/coursework_Maslov/journalentry.h",
+			"MU",
+			"EWIEGA46WW/moc_journalentry.cpp",
 			null
 		],
 		[
@@ -269,6 +287,12 @@
 			"C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/ivanu/QT/coursework_Maslov/securityconsole.h",
+			"MU",
+			"EWIEGA46WW/moc_securityconsole.cpp",
 			null
 		],
 		[
@@ -348,10 +372,14 @@
 	"SETTINGS_FILE" : "C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/CMakeFiles/coursework_Maslov_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/ivanu/QT/coursework_Maslov/accessjournal.cpp", "MU", null ],
+		[ "C:/Users/ivanu/QT/coursework_Maslov/apartment.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/door.cpp", "MU", null ],
+		[ "C:/Users/ivanu/QT/coursework_Maslov/journalentry.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/keyreader.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/main.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/mainwindow.cpp", "MU", null ],
+		[ "C:/Users/ivanu/QT/coursework_Maslov/securityconsole.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/visitor.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

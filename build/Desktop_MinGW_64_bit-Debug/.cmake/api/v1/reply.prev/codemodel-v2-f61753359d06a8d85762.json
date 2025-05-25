@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-d42fd4989f006de20f05.json",
+					"jsonFile" : "directory-.-Debug-2e8096773ef115b18aa0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "coursework_Maslov::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-coursework_Maslov-Debug-d40418d64de8c5538093.json",
+					"jsonFile" : "target-coursework_Maslov-Debug-83355f18a5abc3d0217a.json",
 					"name" : "coursework_Maslov",
 					"projectIndex" : 0
 				},

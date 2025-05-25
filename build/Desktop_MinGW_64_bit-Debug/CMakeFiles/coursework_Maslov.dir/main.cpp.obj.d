@@ -352,6 +352,9 @@ CMakeFiles/coursework_Maslov.dir/main.cpp.obj: \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qcursor.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qbitmap.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ C:\Users\ivanu\QT\coursework_Maslov\apartment.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QApplication \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qapplication.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcoreapplication.h \

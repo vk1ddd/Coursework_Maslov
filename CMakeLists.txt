@@ -27,6 +27,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         door.h door.cpp
         keyreader.h keyreader.cpp
         visitor.h visitor.cpp
+        journalentry.h journalentry.cpp
+        accessjournal.h accessjournal.cpp
+        securityconsole.h securityconsole.cpp
+        apartment.h apartment.cpp
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET coursework_Maslov APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

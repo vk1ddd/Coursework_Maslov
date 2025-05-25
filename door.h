@@ -9,6 +9,13 @@ class Door : public QObject
 {
     Q_OBJECT
 
+private:
+    Door() : m_isLocked(true) {}
+    Q_DISABLE_COPY(Door)
+
+    bool m_isLocked;
+    QDateTime m_lastOpenedTimestamp;
+
 public:
     static Door& instance() {
         static Door _instance;
@@ -27,13 +34,6 @@ public slots:
 signals:
     void doorOpened(const QDateTime& timestamp);
     void doorClosed(const QDateTime& timestamp);
-
-private:
-    Door() : m_isLocked(true) {}
-    Q_DISABLE_COPY(Door)
-
-    bool m_isLocked;
-    QDateTime m_lastOpenedTimestamp;
 };
 
 
