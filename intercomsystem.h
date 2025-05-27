@@ -19,11 +19,7 @@ class IntercomSystem : public QObject
 private:
     explicit IntercomSystem(QObject* parent = nullptr);
     Q_DISABLE_COPY(IntercomSystem)
-
-    // Проверить валидность ключа
     bool verifyKey(int keyID) const;
-
-    // Сформировать и сохранить запись о доступе
     void logAccess(int apartmentNumber, const QString& method, std::optional<int> keyID = std::nullopt);
 
     Door&              m_door;
@@ -35,26 +31,20 @@ private:
     QTimer*            m_sendTimer;
 
 public:
-    // Единственный экземпляр системы
     static IntercomSystem& instance();
-
-    // Зарегистрировать квартиру, чтобы routeCall знал, куда звонить
     void registerApartment(Apartment* apartment);
-
     Panel* panel() const { return m_panel; }
 
 public slots:
-    // Слот от Panel::callRequested
     void routeCall(int apartmentID);
-
-    // Открыть дверь командой из квартиры
     void openDoorByButton(int apartmentID);
-
-    // Открыть дверь по ключу
     void openDoorByKey(int keyID);
-
-    // Слот для ежедневной отправки журнала
     void sendJournal();
+    void openDoorWithMethod(int apartmentID, const QString& method, std::optional<int> keyID = std::nullopt);
+    void handleSpecialCode(const QString& code);
+
+signals:
+    void showError();
 };
 
 #endif // INTERCOMSYSTEM_H

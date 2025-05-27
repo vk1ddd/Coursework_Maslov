@@ -10,35 +10,34 @@ IntercomSystem& IntercomSystem::instance()
 IntercomSystem::IntercomSystem(QObject* parent)
     : QObject(parent)
     , m_door(Door::instance())
-    , m_panel(new Panel(this))           // вместо Panel::instance()
-    , m_keyReader(new KeyReader(this))   // вместо KeyReader::instance()
+    , m_panel(new Panel(this))
+    , m_keyReader(new KeyReader(this))
     , m_journal(new AccessJournal(this))
     , m_console(new SecurityConsole(this))
     , m_sendTimer(new QTimer(this))
 {
-    // Подписка на сигналы панели
     connect(m_panel, &Panel::callRequested,
             this, &IntercomSystem::routeCall);
     connect(m_panel, &Panel::keyPresented,
             this, &IntercomSystem::openDoorByKey);
+    connect(m_panel, &Panel::callError,
+            this, [&](){ emit showError(); });
+
+    connect(m_panel, &Panel::specialCodeEntered,
+            this, &IntercomSystem::handleSpecialCode);
 
 
-    // Подписка на сигналы из квартир
     for (auto it = m_apartments.constBegin(); it != m_apartments.constEnd(); ++it) {
         Apartment* apt = it.value();
         connect(apt, &Apartment::openRequested,
                 this, &IntercomSystem::openDoorByButton);
     }
 
-    // При открытии двери пишем в журнал
     connect(&m_door, &Door::doorOpened, this, [this](const QDateTime& ts){
-        // В этом сигнале нет номера квартиры, логика номера – из последнего запроса
         Q_UNUSED(ts);
     });
-    // Но мы логируем доступ непосредственно в openDoorByButton/openDoorByKey
 
-    // По таймеру пересылаем журнал
-    m_sendTimer->setInterval(24 * 60 * 60 * 1000); // 24 часа
+    m_sendTimer->setInterval(24 * 60 * 60 * 1000);
     connect(m_sendTimer, &QTimer::timeout,
             m_journal, &AccessJournal::sendJournal);
     connect(m_journal, &AccessJournal::journalSent,
@@ -51,11 +50,9 @@ void IntercomSystem::registerApartment(Apartment* apartment)
     int id = apartment->apartmentNumber();
     m_apartments.insert(id, apartment);
 
-    // Подключим openRequested после регистрации
     connect(apartment, &Apartment::openRequested,
             this, &IntercomSystem::openDoorByButton);
 
-    // И чтобы панель знала о квартире
     m_panel->registerApartment(id, apartment);
 }
 
@@ -77,27 +74,19 @@ void IntercomSystem::openDoorByButton(int apartmentID)
     auto it = m_apartments.find(apartmentID);
     if (it == m_apartments.end()) return;
 
-    // Открываем дверь
     m_door.unlock();
     m_door.open();
 
-    // Логируем
     logAccess(apartmentID, QStringLiteral("button"));
 }
 
 void IntercomSystem::openDoorByKey(int keyID)
 {
-    qDebug() << "IntercomSystem: openDoorByKey with key" << keyID;
     if (!verifyKey(keyID)) {
-        qWarning() << "Invalid key:" << keyID;
+        emit showError();
         return;
     }
-    // Открываем дверь
-    m_door.unlock();
-    m_door.open();
-
-    // Логируем с указанием keyID
-    logAccess(-1, QStringLiteral("key"), keyID);
+    openDoorWithMethod(-1, "key", keyID);
 }
 
 bool IntercomSystem::verifyKey(int keyID) const
@@ -117,6 +106,25 @@ void IntercomSystem::logAccess(int apartmentNumber, const QString& method, std::
 
 void IntercomSystem::sendJournal()
 {
-    // Форсируем пересылку
     m_journal->sendJournal();
+}
+
+void IntercomSystem::openDoorWithMethod(int apartmentID, const QString& method, std::optional<int> keyID) {
+    m_door.unlock();
+    m_door.open();
+    logAccess(apartmentID, method, keyID);
+}
+
+
+void IntercomSystem::handleSpecialCode(const QString& code) {
+    static const QString MASTER = "2514";
+    if (code == MASTER) {
+        openDoorWithMethod(-1, "password");
+
+        QTimer::singleShot(2000, this, [this](){
+            Door::instance().close();
+        });
+    } else {
+        emit showError();
+    }
 }

@@ -52,7 +52,7 @@
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tabDoor">
      <property name="styleSheet">
@@ -123,9 +123,9 @@
      <widget class="QLineEdit" name="lineEditNumber">
       <property name="geometry">
        <rect>
-        <x>120</x>
+        <x>170</x>
         <y>60</y>
-        <width>271</width>
+        <width>171</width>
         <height>61</height>
        </rect>
       </property>
@@ -170,7 +170,7 @@
        <set>Qt::ImhNone</set>
       </property>
       <property name="text">
-       <string> 0000</string>
+       <string>0000</string>
       </property>
       <property name="frame">
        <bool>false</bool>
@@ -179,7 +179,7 @@
        <enum>QLineEdit::Normal</enum>
       </property>
       <property name="cursorPosition">
-       <number>5</number>
+       <number>4</number>
       </property>
       <property name="dragEnabled">
        <bool>false</bool>

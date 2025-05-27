@@ -15,47 +15,30 @@ class Panel : public QObject
 private:
     QMap<int, Apartment*> m_buttons;
     QString         m_inputBuffer;
+    bool  m_specialMode = false;
+    QString m_specialBuffer;
 
 public:
     explicit Panel(QObject* parent = nullptr);
-
-    // Зарегистрировать квартиру, чтобы при вызове можно было найти объект
     void registerApartment(int apartmentID, Apartment* apartment);
-
-    // Очистить буфер набранных цифр
     void clearBuffer();
-
     QString inputBuffer() const { return m_inputBuffer; }
+    static constexpr int CODE_LENGTH = 4;
 
 public slots:
-    // Нажата цифра на домофоне
     void inputDigit(int digit);
-
-    // Нажата кнопка «Call»
     void pressCall();
-
-    // Сработал считыватель ключа
     void receiveKey(int keyID);
-
-    // Текст пришёл из квартиры (тру́бки) — переслать его дальше
     void sendTextToApartment(int apartmentID, const QString& text);
-
-    void inputSpecial(QChar c) {
-        m_inputBuffer.append(c);
-        emit bufferChanged(m_inputBuffer);
-    }
+    void inputSpecial(QChar c);
 
 signals:
-    // Показываем UI, что начинать вызов в указанную квартиру
     void callRequested(int apartmentID);
-
-    // Проверен ключ — дальше по цепочке
     void keyPresented(int keyID);
-
-    // Текст от квартиры пришёл на панель
     void apartmentTextReceived(int apartmentID, const QString& text);
-
     void bufferChanged(const QString& newBuffer);
+    void callError();
+    void specialCodeEntered(const QString& code);
 };
 
 #endif // PANEL_H

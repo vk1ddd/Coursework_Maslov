@@ -21,6 +21,8 @@ public:
 private:
     Ui::MainWindow *ui;
     QList<Apartment*> allApartments;
-    int m_currentApartmentID = -1;
+    int m_currentApartmentID   = -1;
+    int m_lastCalledApartment  = -1;
+    int m_lastHighlightedApartment = -1;
 };
 #endif // MAINWINDOW_H

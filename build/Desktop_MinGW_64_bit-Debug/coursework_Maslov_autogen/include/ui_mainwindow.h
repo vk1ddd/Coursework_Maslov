@@ -122,7 +122,7 @@ public:
         btnKeyReader->setFlat(true);
         lineEditNumber = new QLineEdit(tabIntercom);
         lineEditNumber->setObjectName("lineEditNumber");
-        lineEditNumber->setGeometry(QRect(120, 60, 271, 61));
+        lineEditNumber->setGeometry(QRect(170, 60, 171, 61));
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -142,7 +142,7 @@ public:
         lineEditNumber->setInputMethodHints(Qt::ImhNone);
         lineEditNumber->setFrame(false);
         lineEditNumber->setEchoMode(QLineEdit::Normal);
-        lineEditNumber->setCursorPosition(5);
+        lineEditNumber->setCursorPosition(4);
         lineEditNumber->setDragEnabled(false);
         lineEditNumber->setReadOnly(true);
         btn1 = new QPushButton(tabIntercom);
@@ -354,7 +354,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabdoor->setCurrentIndex(2);
+        tabdoor->setCurrentIndex(1);
         stackedDoor->setCurrentIndex(0);
         stackedApartment->setCurrentIndex(0);
         btnOpenFromApt->setDefault(false);
@@ -368,7 +368,7 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         tabdoor->setTabText(tabdoor->indexOf(tabDoor), QCoreApplication::translate("MainWindow", "\320\224\320\262\320\265\321\200\321\214", nullptr));
         btnKeyReader->setText(QString());
-        lineEditNumber->setText(QCoreApplication::translate("MainWindow", " 0000", nullptr));
+        lineEditNumber->setText(QCoreApplication::translate("MainWindow", "0000", nullptr));
         btn1->setText(QString());
         btn2->setText(QString());
         btn3->setText(QString());

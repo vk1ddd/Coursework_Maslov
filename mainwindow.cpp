@@ -2,6 +2,7 @@
 #include "./ui_mainwindow.h"
 #include "door.h"
 #include "intercomsystem.h"
+#include "panel.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -25,7 +26,6 @@ MainWindow::MainWindow(QWidget *parent)
     }
 
 
-
     connect(&Door::instance(), &Door::doorOpened, this, [this](const QDateTime&){
         ui->stackedDoor->setCurrentIndex(1);
     });
@@ -34,77 +34,93 @@ MainWindow::MainWindow(QWidget *parent)
     });
 
 
-    // ПОМЕНЯТЬ РЕАЛИЗАЦИЮ ОТЕРЫТИЯ ДВЕРИ С ТРУБКИ
-    connect(ui->btnOpenFromApt, &QPushButton::clicked, this, [](){
-        Door::instance().unlock();
-        Door::instance().open();
-    });
 
-
-    // Получаем указатель на Panel
     Panel* panel = IntercomSystem::instance().panel();
 
-    // 0–9
+    connect(panel, &Panel::bufferChanged, this, [this](const QString& buf){
+        ui->lineEditNumber->setText(buf);
+    });
+
+    panel->clearBuffer();
+
     for (int d = 0; d <= 9; ++d) {
-        QPushButton* btn = findChild<QPushButton*>(QString("btn%1").arg(d));
-        connect(btn, &QPushButton::clicked, this, [this, panel, d]() {
-            panel->inputDigit(d);
-            ui->lineEditNumber->setText(panel->inputBuffer());
+        auto btn = findChild<QPushButton*>(QString("btn%1").arg(d));
+        connect(btn, &QPushButton::clicked, this, [panel, d]() {
+            panel->inputSpecial(QChar('0' + d));
         });
     }
 
-    // * и #
-    connect(ui->btnStar, &QPushButton::clicked, this, [this, panel]() {
+    connect(ui->btnStar, &QPushButton::clicked, this, [panel]() {
         panel->inputSpecial('*');
-        ui->lineEditNumber->setText(panel->inputBuffer());
     });
-    connect(ui->btnGrid, &QPushButton::clicked, this, [this, panel]() {
+    connect(ui->btnGrid, &QPushButton::clicked, this, [panel]() {
         panel->inputSpecial('#');
-        ui->lineEditNumber->setText(panel->inputBuffer());
     });
 
-    // Call
     connect(ui->Call, &QPushButton::clicked, this, [this, panel]() {
         panel->pressCall();
-        ui->lineEditNumber->clear();
     });
 
-    // Когда вызов запрошен — переключаемся на вкладку "Квартиры" и подсвечиваем
     connect(panel, &Panel::callRequested, this, [this](int aptID){
-        auto aptBtn = findChild<QPushButton*>(QString("app%1").arg(aptID));
-        if (aptBtn) aptBtn->setStyleSheet("border:2px solid yellow;");
+        m_lastCalledApartment = aptID;
+
+        ui->tabdoor->setCurrentWidget(ui->tabBuilding);
+        ui->stackedApartment->setCurrentWidget(ui->building);
+
+        auto b = findChild<QPushButton*>(QString("app%1").arg(aptID));
+        if (b) b->setStyleSheet("border:2px solid yellow;");
     });
 
-    // Нажатие на кнопку квартиры
     for (int i = 1; i <= 16; ++i) {
         QPushButton* aptBtn = findChild<QPushButton*>(QString("app%1").arg(i));
         connect(aptBtn, &QPushButton::clicked, this, [this, i]() {
             m_currentApartmentID = i;
-            // Сброс подсветки
-            for (int j = 1; j <= 16; ++j) {
-                auto b = findChild<QPushButton*>(QString("app%1").arg(j));
-                if (b) b->setStyleSheet("");
-            }
-            // Переключаем stackedApartment на страницу "handset"
+
+            auto newBtn = findChild<QPushButton*>(QString("app%1").arg(i));
+            if (newBtn) newBtn->setStyleSheet("border:2px solid yellow;");
+
+            m_lastHighlightedApartment = i;
             ui->stackedApartment->setCurrentWidget(ui->handset);
         });
     }
 
-    // Back из трубки в план
     connect(ui->btnBack, &QPushButton::clicked, this, [this](){
+        if (m_lastHighlightedApartment != -1) {
+            auto prevBtn = findChild<QPushButton*>(
+                QString("app%1").arg(m_lastHighlightedApartment));
+            if (prevBtn) prevBtn->setStyleSheet("");
+            m_lastHighlightedApartment = -1;
+        }
+
         ui->stackedApartment->setCurrentWidget(ui->building);
         ui->tabdoor->setCurrentWidget(ui->tabBuilding);
     });
 
-    // Open из трубки
     connect(ui->btnOpenFromApt, &QPushButton::clicked, this, [this](){
-        if (m_currentApartmentID > 0) {
+        if (m_currentApartmentID == m_lastCalledApartment && m_currentApartmentID > 0) {
             IntercomSystem::instance().openDoorByButton(m_currentApartmentID);
-            // Авто-закрытие через 2 секунды
+            // Автозакрытие
             QTimer::singleShot(2000, this, [](){
                 Door::instance().close();
             });
+        } else {
+            qDebug() << "Open denied: currentApartment" << m_currentApartmentID
+                     << "lastCalled" << m_lastCalledApartment;
         }
+    });
+
+    connect(panel, &Panel::callError, this, [this]() {
+        ui->lineEditNumber->setText("EROR");
+        QTimer::singleShot(2000, this, [this]() {
+            ui->lineEditNumber->setText("0000");
+        });
+    });
+
+    connect(&IntercomSystem::instance(), &IntercomSystem::showError, this, [this]() {
+        ui->lineEditNumber->setText("EROR");
+        QTimer::singleShot(2000, this, [this]() {
+            ui->lineEditNumber->setText("0000");
+        });
     });
 
 

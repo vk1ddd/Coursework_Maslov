@@ -19,27 +19,24 @@ void Panel::clearBuffer()
 
 void Panel::inputDigit(int digit)
 {
-    if (digit < 0 || digit > 9) {
-        qWarning() << "Panel::inputDigit: invalid digit" << digit;
-        return;
+    if (m_inputBuffer.isEmpty()) {
+        m_inputBuffer = QString(CODE_LENGTH, '0');
     }
-    m_inputBuffer.append(QChar('0' + digit));
-    qDebug() << "Panel buffer:" << m_inputBuffer;
+    m_inputBuffer = m_inputBuffer.mid(1) + QChar('0' + digit);
+    emit bufferChanged(m_inputBuffer);
 }
 
 void Panel::pressCall()
 {
     bool ok = false;
     int aptID = m_inputBuffer.toInt(&ok);
-    clearBuffer();
-
-    if (!ok || !m_buttons.contains(aptID)) {
-        qWarning() << "Panel::pressCall: apartment" << m_inputBuffer << "not found";
-        return;
+    m_inputBuffer = QString(CODE_LENGTH, '0');
+    emit bufferChanged(m_inputBuffer);
+    if (ok && m_buttons.contains(aptID)) {
+        emit callRequested(aptID);
+    } else {
+        emit callError();
     }
-
-    qDebug() << "Panel: requesting call to apartment" << aptID;
-    emit callRequested(aptID);
 }
 
 void Panel::receiveKey(int keyID)
@@ -56,6 +53,28 @@ void Panel::sendTextToApartment(int apartmentID, const QString& text)
     }
     Apartment* apt = m_buttons.value(apartmentID);
     qDebug() << "Panel: sending text to apartment" << apartmentID << ":" << text;
-    // перенаправляем в квартиру
     apt->sendTextToPanel(text);
+}
+
+void Panel::inputSpecial(QChar c) {
+    if (c == '*') {
+        m_specialMode = true;
+        m_specialBuffer.clear();
+        m_inputBuffer = QString(CODE_LENGTH, '0');
+        emit bufferChanged(m_inputBuffer);
+        return;
+    }
+    if (c == '#' && m_specialMode) {
+        m_specialMode = false;
+        emit specialCodeEntered(m_specialBuffer);
+        m_inputBuffer = QString(CODE_LENGTH, '0');
+        emit bufferChanged(m_inputBuffer);
+        return;
+    }
+    if (m_specialMode) {
+        if (m_specialBuffer.length() < CODE_LENGTH)
+            m_specialBuffer.append(c);
+        return;
+    }
+    inputDigit(c.digitValue());
 }
