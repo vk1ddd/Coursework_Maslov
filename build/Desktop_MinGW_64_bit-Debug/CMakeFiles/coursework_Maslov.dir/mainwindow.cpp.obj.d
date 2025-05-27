@@ -404,4 +404,21 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:\Users\ivanu\QT\coursework_Maslov\door.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QDateTime \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdatetime.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcalendar.h
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcalendar.h \
+ C:\Users\ivanu\QT\coursework_Maslov\intercomsystem.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QMap \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmap.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QTimer \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtimer.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbasictimer.h \
+ C:\Users\ivanu\QT\coursework_Maslov\panel.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QString \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qstring.h \
+ C:\Users\ivanu\QT\coursework_Maslov\accessjournal.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QList \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlist.h \
+ C:\Users\ivanu\QT\coursework_Maslov\JournalEntry.h \
+ C:\Users\ivanu\QT\coursework_Maslov\securityconsole.h \
+ C:\Users\ivanu\QT\coursework_Maslov\keyreader.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QSet \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qset.h

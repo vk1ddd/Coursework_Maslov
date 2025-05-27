@@ -272,6 +272,12 @@
 			null
 		],
 		[
+			"C:/Users/ivanu/QT/coursework_Maslov/intercomsystem.h",
+			"MU",
+			"EWIEGA46WW/moc_intercomsystem.cpp",
+			null
+		],
+		[
 			"C:/Users/ivanu/QT/coursework_Maslov/journalentry.h",
 			"MU",
 			"EWIEGA46WW/moc_journalentry.cpp",
@@ -287,6 +293,12 @@
 			"C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/ivanu/QT/coursework_Maslov/panel.h",
+			"MU",
+			"EWIEGA46WW/moc_panel.cpp",
 			null
 		],
 		[
@@ -375,10 +387,12 @@
 		[ "C:/Users/ivanu/QT/coursework_Maslov/accessjournal.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/apartment.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/door.cpp", "MU", null ],
+		[ "C:/Users/ivanu/QT/coursework_Maslov/intercomsystem.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/journalentry.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/keyreader.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/main.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/mainwindow.cpp", "MU", null ],
+		[ "C:/Users/ivanu/QT/coursework_Maslov/panel.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/securityconsole.cpp", "MU", null ],
 		[ "C:/Users/ivanu/QT/coursework_Maslov/visitor.cpp", "MU", null ]
 	],

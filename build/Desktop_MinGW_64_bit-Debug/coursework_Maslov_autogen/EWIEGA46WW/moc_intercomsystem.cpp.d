@@ -317,7 +317,6 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Users/ivanu/QT/coursework_Maslov/accessjournal.h \
   C:/Users/ivanu/QT/coursework_Maslov/apartment.h \
   C:/Users/ivanu/QT/coursework_Maslov/door.h \
-  C:/Users/ivanu/QT/coursework_Maslov/journalentry.h \
   C:/Users/ivanu/QT/coursework_Maslov/keyreader.h \
   C:/Users/ivanu/QT/coursework_Maslov/panel.h \
   C:/Users/ivanu/QT/coursework_Maslov/securityconsole.h

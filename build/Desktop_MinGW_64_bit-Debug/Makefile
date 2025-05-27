@@ -319,6 +319,30 @@ door.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/door.cpp.s
 .PHONY : door.cpp.s
 
+intercomsystem.obj: intercomsystem.cpp.obj
+.PHONY : intercomsystem.obj
+
+# target to build an object file
+intercomsystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.obj
+.PHONY : intercomsystem.cpp.obj
+
+intercomsystem.i: intercomsystem.cpp.i
+.PHONY : intercomsystem.i
+
+# target to preprocess a source file
+intercomsystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.i
+.PHONY : intercomsystem.cpp.i
+
+intercomsystem.s: intercomsystem.cpp.s
+.PHONY : intercomsystem.s
+
+# target to generate assembly for a file
+intercomsystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.s
+.PHONY : intercomsystem.cpp.s
+
 journalentry.obj: journalentry.cpp.obj
 .PHONY : journalentry.obj
 
@@ -415,6 +439,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+panel.obj: panel.cpp.obj
+.PHONY : panel.obj
+
+# target to build an object file
+panel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/panel.cpp.obj
+.PHONY : panel.cpp.obj
+
+panel.i: panel.cpp.i
+.PHONY : panel.i
+
+# target to preprocess a source file
+panel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/panel.cpp.i
+.PHONY : panel.cpp.i
+
+panel.s: panel.cpp.s
+.PHONY : panel.s
+
+# target to generate assembly for a file
+panel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/panel.cpp.s
+.PHONY : panel.cpp.s
+
 securityconsole.obj: securityconsole.cpp.obj
 .PHONY : securityconsole.obj
 
@@ -493,6 +541,9 @@ help:
 	@echo ... door.obj
 	@echo ... door.i
 	@echo ... door.s
+	@echo ... intercomsystem.obj
+	@echo ... intercomsystem.i
+	@echo ... intercomsystem.s
 	@echo ... journalentry.obj
 	@echo ... journalentry.i
 	@echo ... journalentry.s
@@ -505,6 +556,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... panel.obj
+	@echo ... panel.i
+	@echo ... panel.s
 	@echo ... securityconsole.obj
 	@echo ... securityconsole.i
 	@echo ... securityconsole.s

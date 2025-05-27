@@ -20,6 +20,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
-     QList<Apartment*> allApartments;
+    QList<Apartment*> allApartments;
+    int m_currentApartmentID = -1;
 };
 #endif // MAINWINDOW_H

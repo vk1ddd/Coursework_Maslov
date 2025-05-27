@@ -52,7 +52,7 @@
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="tabDoor">
      <property name="styleSheet">
@@ -939,6 +939,19 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnBack">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>80</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>К квартирам</string>
         </property>
        </widget>
       </widget>

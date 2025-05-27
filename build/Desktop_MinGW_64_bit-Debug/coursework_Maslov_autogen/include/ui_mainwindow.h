@@ -68,6 +68,7 @@ public:
     QPushButton *app16;
     QWidget *handset;
     QPushButton *btnOpenFromApt;
+    QPushButton *btnBack;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -344,13 +345,16 @@ public:
         btnOpenFromApt->setAutoFillBackground(false);
         btnOpenFromApt->setAutoDefault(false);
         btnOpenFromApt->setFlat(true);
+        btnBack = new QPushButton(handset);
+        btnBack->setObjectName("btnBack");
+        btnBack->setGeometry(QRect(10, 10, 80, 24));
         stackedApartment->addWidget(handset);
         tabdoor->addTab(tabBuilding, QString());
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
 
-        tabdoor->setCurrentIndex(1);
+        tabdoor->setCurrentIndex(2);
         stackedDoor->setCurrentIndex(0);
         stackedApartment->setCurrentIndex(0);
         btnOpenFromApt->setDefault(false);
@@ -396,6 +400,7 @@ public:
         app8->setText(QCoreApplication::translate("MainWindow", "8", nullptr));
         app16->setText(QCoreApplication::translate("MainWindow", "16", nullptr));
         btnOpenFromApt->setText(QString());
+        btnBack->setText(QCoreApplication::translate("MainWindow", "\320\232 \320\272\320\262\320\260\321\200\321\202\320\270\321\200\320\260\320\274", nullptr));
         tabdoor->setTabText(tabdoor->indexOf(tabBuilding), QCoreApplication::translate("MainWindow", "\320\232\320\262\320\260\321\200\321\202\320\270\321\200\321\213", nullptr));
     } // retranslateUi
 

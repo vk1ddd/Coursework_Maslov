@@ -31,6 +31,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         accessjournal.h accessjournal.cpp
         securityconsole.h securityconsole.cpp
         apartment.h apartment.cpp
+        panel.h panel.cpp
+        intercomsystem.h intercomsystem.cpp
 
 
     )

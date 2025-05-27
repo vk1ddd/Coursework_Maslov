@@ -335,10 +335,16 @@ CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.
  C:/Users/ivanu/QT/coursework_Maslov/apartment.h \
  C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_door.cpp \
  C:/Users/ivanu/QT/coursework_Maslov/door.h \
- C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_keyreader.cpp \
+ C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_intercomsystem.cpp \
+ C:/Users/ivanu/QT/coursework_Maslov/intercomsystem.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QMap \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmap.h \
+ C:/Users/ivanu/QT/coursework_Maslov/panel.h \
+ C:/Users/ivanu/QT/coursework_Maslov/securityconsole.h \
  C:/Users/ivanu/QT/coursework_Maslov/keyreader.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QSet \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qset.h \
+ C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_keyreader.cpp \
  C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
@@ -379,7 +385,7 @@ CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qcursor.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qbitmap.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_panel.cpp \
  C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_securityconsole.cpp \
- C:/Users/ivanu/QT/coursework_Maslov/securityconsole.h \
  C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_visitor.cpp \
  C:/Users/ivanu/QT/coursework_Maslov/visitor.h

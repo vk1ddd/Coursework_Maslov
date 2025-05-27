@@ -231,6 +231,7 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QDateTime \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QList \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QMap \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QSet \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QString \
@@ -527,6 +528,8 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_Maslov_autogen/moc_predefs.h \
 	C:/Users/ivanu/QT/coursework_Maslov/door.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/door.h \
+	C:/Users/ivanu/QT/coursework_Maslov/intercomsystem.cpp \
+	C:/Users/ivanu/QT/coursework_Maslov/intercomsystem.h \
 	C:/Users/ivanu/QT/coursework_Maslov/journalentry.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/journalentry.h \
 	C:/Users/ivanu/QT/coursework_Maslov/keyreader.cpp \
@@ -534,6 +537,8 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Users/ivanu/QT/coursework_Maslov/main.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/mainwindow.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/mainwindow.h \
+	C:/Users/ivanu/QT/coursework_Maslov/panel.cpp \
+	C:/Users/ivanu/QT/coursework_Maslov/panel.h \
 	C:/Users/ivanu/QT/coursework_Maslov/resources.qrc \
 	C:/Users/ivanu/QT/coursework_Maslov/securityconsole.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/securityconsole.h \
