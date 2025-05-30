@@ -355,6 +355,12 @@ CMakeFiles/coursework_Maslov.dir/main.cpp.obj: \
  C:\Users\ivanu\QT\coursework_Maslov\apartment.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
+ C:\Users\ivanu\QT\coursework_Maslov\visitor.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QString \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qstring.h \
+ C:\Users\ivanu\QT\coursework_Maslov\visitorfactory.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVector \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvector.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QApplication \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qapplication.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcoreapplication.h \

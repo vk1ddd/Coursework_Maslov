@@ -385,7 +385,15 @@ CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qcursor.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qbitmap.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ C:/Users/ivanu/QT/coursework_Maslov/visitor.h \
+ C:/Users/ivanu/QT/coursework_Maslov/visitorfactory.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVector \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvector.h \
  C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_panel.cpp \
  C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_securityconsole.cpp \
  C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_visitor.cpp \
- C:/Users/ivanu/QT/coursework_Maslov/visitor.h
+ C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_visitordialog.cpp \
+ C:/Users/ivanu/QT/coursework_Maslov/visitordialog.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QDialog \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qdialog.h \
+ C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW/moc_visitorfactory.cpp

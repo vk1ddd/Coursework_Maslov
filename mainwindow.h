@@ -3,6 +3,9 @@
 
 #include <QMainWindow>
 #include "apartment.h"
+#include "visitor.h"
+#include "visitorfactory.h"
+#include <QVector>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -18,11 +21,19 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void onAddVisitor();
+    void onKeyReaderClicked();
+
 private:
     Ui::MainWindow *ui;
     QList<Apartment*> allApartments;
     int m_currentApartmentID   = -1;
     int m_lastCalledApartment  = -1;
     int m_lastHighlightedApartment = -1;
+
+    VisitorFactory m_visitorFactory;
+    QVector<Visitor*> m_visitors;
 };
+
 #endif // MAINWINDOW_H

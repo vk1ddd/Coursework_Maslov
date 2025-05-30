@@ -511,6 +511,30 @@ visitor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/visitor.cpp.s
 .PHONY : visitor.cpp.s
 
+visitordialog.obj: visitordialog.cpp.obj
+.PHONY : visitordialog.obj
+
+# target to build an object file
+visitordialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj
+.PHONY : visitordialog.cpp.obj
+
+visitordialog.i: visitordialog.cpp.i
+.PHONY : visitordialog.i
+
+# target to preprocess a source file
+visitordialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.i
+.PHONY : visitordialog.cpp.i
+
+visitordialog.s: visitordialog.cpp.s
+.PHONY : visitordialog.s
+
+# target to generate assembly for a file
+visitordialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.s
+.PHONY : visitordialog.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -565,6 +589,9 @@ help:
 	@echo ... visitor.obj
 	@echo ... visitor.i
 	@echo ... visitor.s
+	@echo ... visitordialog.obj
+	@echo ... visitordialog.i
+	@echo ... visitordialog.s
 .PHONY : help
 
 

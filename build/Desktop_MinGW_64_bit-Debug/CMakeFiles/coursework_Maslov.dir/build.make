@@ -268,11 +268,26 @@ CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.s"
 	C:\Qt\qtcreator-15.0.1\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ivanu\QT\coursework_Maslov\intercomsystem.cpp -o CMakeFiles\coursework_Maslov.dir\intercomsystem.cpp.s
 
+CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj: CMakeFiles/coursework_Maslov.dir/flags.make
+CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj: CMakeFiles/coursework_Maslov.dir/includes_CXX.rsp
+CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj: C:/Users/ivanu/QT/coursework_Maslov/visitordialog.cpp
+CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj: CMakeFiles/coursework_Maslov.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj"
+	C:\Qt\qtcreator-15.0.1\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj -MF CMakeFiles\coursework_Maslov.dir\visitordialog.cpp.obj.d -o CMakeFiles\coursework_Maslov.dir\visitordialog.cpp.obj -c C:\Users\ivanu\QT\coursework_Maslov\visitordialog.cpp
+
+CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.i"
+	C:\Qt\qtcreator-15.0.1\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ivanu\QT\coursework_Maslov\visitordialog.cpp > CMakeFiles\coursework_Maslov.dir\visitordialog.cpp.i
+
+CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.s"
+	C:\Qt\qtcreator-15.0.1\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ivanu\QT\coursework_Maslov\visitordialog.cpp -o CMakeFiles\coursework_Maslov.dir\visitordialog.cpp.s
+
 CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/coursework_Maslov.dir/flags.make
 CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/coursework_Maslov.dir/includes_CXX.rsp
 CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj: coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/coursework_Maslov.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
 	C:\Qt\qtcreator-15.0.1\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj -MF CMakeFiles\coursework_Maslov.dir\coursework_Maslov_autogen\EWIEGA46WW\qrc_resources.cpp.obj.d -o CMakeFiles\coursework_Maslov.dir\coursework_Maslov_autogen\EWIEGA46WW\qrc_resources.cpp.obj -c C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\coursework_Maslov_autogen\EWIEGA46WW\qrc_resources.cpp
 
 CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
@@ -297,6 +312,7 @@ coursework_Maslov_OBJECTS = \
 "CMakeFiles/coursework_Maslov.dir/apartment.cpp.obj" \
 "CMakeFiles/coursework_Maslov.dir/panel.cpp.obj" \
 "CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.obj" \
+"CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj" \
 "CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
 
 # External object files for target coursework_Maslov
@@ -314,6 +330,7 @@ coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/securityconsole.cpp.obj
 coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/apartment.cpp.obj
 coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/panel.cpp.obj
 coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.obj
+coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj
 coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/EWIEGA46WW/qrc_resources.cpp.obj
 coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/build.make
 coursework_Maslov.exe: C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/lib/libQt6Widgets.a
@@ -323,7 +340,7 @@ coursework_Maslov.exe: C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/lib/libQt6EntryPo
 coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/linkLibs.rsp
 coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/objects1.rsp
 coursework_Maslov.exe: CMakeFiles/coursework_Maslov.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable coursework_Maslov.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ivanu\QT\coursework_Maslov\build\Desktop_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable coursework_Maslov.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\coursework_Maslov.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

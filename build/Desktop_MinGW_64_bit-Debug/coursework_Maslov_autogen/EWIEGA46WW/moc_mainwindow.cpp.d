@@ -199,6 +199,8 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QString \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVector \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20memory.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20type_traits.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qalgorithms.h \
@@ -305,6 +307,7 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qutf8stringview.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvariant.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvarlengtharray.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvector.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qversiontagging.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qxptype_traits.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qaction.h \
@@ -340,4 +343,6 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
-  C:/Users/ivanu/QT/coursework_Maslov/apartment.h
+  C:/Users/ivanu/QT/coursework_Maslov/apartment.h \
+  C:/Users/ivanu/QT/coursework_Maslov/visitor.h \
+  C:/Users/ivanu/QT/coursework_Maslov/visitorfactory.h

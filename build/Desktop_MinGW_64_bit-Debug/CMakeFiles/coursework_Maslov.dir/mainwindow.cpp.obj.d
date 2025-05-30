@@ -355,6 +355,12 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:\Users\ivanu\QT\coursework_Maslov\apartment.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
+ C:\Users\ivanu\QT\coursework_Maslov\visitor.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QString \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qstring.h \
+ C:\Users\ivanu\QT\coursework_Maslov\visitorfactory.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVector \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvector.h \
  C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_Maslov_autogen/include/ui_mainwindow.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVariant \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvariant.h \
@@ -412,8 +418,6 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtimer.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbasictimer.h \
  C:\Users\ivanu\QT\coursework_Maslov\panel.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QString \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qstring.h \
  C:\Users\ivanu\QT\coursework_Maslov\accessjournal.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QList \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlist.h \
@@ -421,4 +425,7 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:\Users\ivanu\QT\coursework_Maslov\securityconsole.h \
  C:\Users\ivanu\QT\coursework_Maslov\keyreader.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QSet \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qset.h
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qset.h \
+ C:\Users\ivanu\QT\coursework_Maslov\visitordialog.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QDialog \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qdialog.h

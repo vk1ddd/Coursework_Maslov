@@ -46,7 +46,8 @@ public:
     QPushButton *Call;
     QPushButton *btnStar;
     QPushButton *btnGrid;
-    QComboBox *comboBox;
+    QComboBox *visitors;
+    QPushButton *addVisitor;
     QWidget *tabBuilding;
     QStackedWidget *stackedApartment;
     QWidget *building;
@@ -216,9 +217,13 @@ public:
         btnGrid->setGeometry(QRect(390, 520, 51, 51));
         btnGrid->setCursor(QCursor(Qt::PointingHandCursor));
         btnGrid->setFlat(true);
-        comboBox = new QComboBox(tabIntercom);
-        comboBox->setObjectName("comboBox");
-        comboBox->setGeometry(QRect(10, 0, 91, 21));
+        visitors = new QComboBox(tabIntercom);
+        visitors->setObjectName("visitors");
+        visitors->setGeometry(QRect(10, 0, 91, 21));
+        addVisitor = new QPushButton(tabIntercom);
+        addVisitor->setObjectName("addVisitor");
+        addVisitor->setGeometry(QRect(110, 0, 21, 21));
+        addVisitor->setCursor(QCursor(Qt::PointingHandCursor));
         tabdoor->addTab(tabIntercom, QString());
         tabBuilding = new QWidget();
         tabBuilding->setObjectName("tabBuilding");
@@ -382,6 +387,7 @@ public:
         Call->setText(QString());
         btnStar->setText(QString());
         btnGrid->setText(QString());
+        addVisitor->setText(QCoreApplication::translate("MainWindow", "+", nullptr));
         tabdoor->setTabText(tabdoor->indexOf(tabIntercom), QCoreApplication::translate("MainWindow", "\320\224\320\276\320\274\320\276\321\204\320\276\320\275", nullptr));
         app6->setText(QCoreApplication::translate("MainWindow", "6", nullptr));
         app7->setText(QCoreApplication::translate("MainWindow", "7", nullptr));

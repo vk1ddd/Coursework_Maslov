@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ivanu/QT/coursework_Maslov/panel.cpp" "CMakeFiles/coursework_Maslov.dir/panel.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/panel.cpp.obj.d"
   "C:/Users/ivanu/QT/coursework_Maslov/securityconsole.cpp" "CMakeFiles/coursework_Maslov.dir/securityconsole.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/securityconsole.cpp.obj.d"
   "C:/Users/ivanu/QT/coursework_Maslov/visitor.cpp" "CMakeFiles/coursework_Maslov.dir/visitor.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/visitor.cpp.obj.d"
+  "C:/Users/ivanu/QT/coursework_Maslov/visitordialog.cpp" "CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

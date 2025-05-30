@@ -10,13 +10,16 @@ class Visitor : public QObject
     Q_OBJECT
 
 private:
-    int m_id;
+    QString m_name;
+    int     m_keyID;
 
 
 public:
-    explicit Visitor(int id, QObject* parent = nullptr);
+    explicit Visitor(const QString& name, int keyID, QObject* parent = nullptr)
+        : QObject(parent), m_name(name), m_keyID(keyID) {}
 
-    int id() const;
+    QString name() const { return m_name; }
+    int keyID() const     { return m_keyID; }
 
 public slots:
     void pressButton(int apartmentID);

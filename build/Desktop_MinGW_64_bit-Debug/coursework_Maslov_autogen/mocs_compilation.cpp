@@ -8,3 +8,5 @@
 #include "EWIEGA46WW/moc_panel.cpp"
 #include "EWIEGA46WW/moc_securityconsole.cpp"
 #include "EWIEGA46WW/moc_visitor.cpp"
+#include "EWIEGA46WW/moc_visitordialog.cpp"
+#include "EWIEGA46WW/moc_visitorfactory.cpp"

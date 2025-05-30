@@ -33,6 +33,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         apartment.h apartment.cpp
         panel.h panel.cpp
         intercomsystem.h intercomsystem.cpp
+        visitordialog.h visitordialog.cpp visitordialog.ui
+        visitorfactory.h
 
 
     )

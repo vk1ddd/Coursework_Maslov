@@ -3,7 +3,7 @@
 KeyReader::KeyReader(QObject* parent)
     : QObject(parent)
 {
-   // заранее добавлять ключи
+    m_validKeys.insert(1209);
 }
 
 void KeyReader::registerKey(int keyID)

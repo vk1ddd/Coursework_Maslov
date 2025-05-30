@@ -3,6 +3,7 @@
 #include "door.h"
 #include "intercomsystem.h"
 #include "panel.h"
+#include "visitordialog.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -32,6 +33,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(&Door::instance(), &Door::doorClosed, this, [this](const QDateTime&){
         ui->stackedDoor->setCurrentIndex(0);
     });
+
 
 
 
@@ -96,10 +98,11 @@ MainWindow::MainWindow(QWidget *parent)
         ui->tabdoor->setCurrentWidget(ui->tabBuilding);
     });
 
-    connect(ui->btnOpenFromApt, &QPushButton::clicked, this, [this](){
+    connect(ui->btnOpenFromApt, &QPushButton::clicked, this, [this]() {
         if (m_currentApartmentID == m_lastCalledApartment && m_currentApartmentID > 0) {
-            IntercomSystem::instance().openDoorByButton(m_currentApartmentID);
-            // Автозакрытие
+            Apartment* apt = allApartments.at(m_currentApartmentID - 1);
+            apt->pressOpen();
+
             QTimer::singleShot(2000, this, [](){
                 Door::instance().close();
             });
@@ -108,6 +111,22 @@ MainWindow::MainWindow(QWidget *parent)
                      << "lastCalled" << m_lastCalledApartment;
         }
     });
+
+
+
+
+
+
+    connect(ui->addVisitor, &QPushButton::clicked,
+            this, &MainWindow::onAddVisitor);
+
+    connect(ui->btnKeyReader, &QPushButton::clicked,
+            this, &MainWindow::onKeyReaderClicked);
+
+
+
+
+
 
     connect(panel, &Panel::callError, this, [this]() {
         ui->lineEditNumber->setText("EROR");
@@ -125,6 +144,33 @@ MainWindow::MainWindow(QWidget *parent)
 
 
 }
+
+void MainWindow::onAddVisitor() {
+    VisitorDialog dlg(this);
+    if (dlg.exec() == QDialog::Accepted) {
+        QString name = dlg.visitorName();
+        int key = dlg.visitorKey();
+
+        Visitor* v = m_visitorFactory.createVisitor(name, key);
+        m_visitors.append(v);
+
+        ui->visitors->addItem(name, key);
+    }
+}
+
+void MainWindow::onKeyReaderClicked() {
+    int idx = ui->visitors->currentIndex();
+    if (idx < 0) return;
+    int keyID = ui->visitors->itemData(idx).toInt();
+
+    IntercomSystem::instance().openDoorByKey(keyID);
+
+    QTimer::singleShot(2000, this, [](){
+        Door::instance().close();
+    });
+}
+
+
 
 MainWindow::~MainWindow()
 {

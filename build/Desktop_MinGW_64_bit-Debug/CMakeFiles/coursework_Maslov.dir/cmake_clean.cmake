@@ -28,6 +28,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/coursework_Maslov.dir/securityconsole.cpp.obj.d"
   "CMakeFiles/coursework_Maslov.dir/visitor.cpp.obj"
   "CMakeFiles/coursework_Maslov.dir/visitor.cpp.obj.d"
+  "CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj"
+  "CMakeFiles/coursework_Maslov.dir/visitordialog.cpp.obj.d"
   "coursework_Maslov.exe"
   "coursework_Maslov.exe.manifest"
   "coursework_Maslov.pdb"
