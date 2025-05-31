@@ -29,13 +29,11 @@ public slots:
     void inputDigit(int digit);
     void pressCall();
     void receiveKey(int keyID);
-    void sendTextToApartment(int apartmentID, const QString& text);
     void inputSpecial(QChar c);
 
 signals:
     void callRequested(int apartmentID);
     void keyPresented(int keyID);
-    void apartmentTextReceived(int apartmentID, const QString& text);
     void bufferChanged(const QString& newBuffer);
     void callError();
     void specialCodeEntered(const QString& code);

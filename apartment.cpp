@@ -53,10 +53,3 @@ void Apartment::receiveCall()
         qDebug() << "Apartment" << m_apartmentNumber << ": received call";
     }
 }
-
-void Apartment::sendTextToPanel(const QString& text)
-{
-    emit apartmentText(m_apartmentNumber, text);
-    qDebug() << "Apartment" << m_apartmentNumber
-             << "sends text to panel:" << text;
-}

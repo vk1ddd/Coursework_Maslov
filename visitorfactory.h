@@ -10,7 +10,6 @@ class VisitorFactory : public QObject {
 public:
     explicit VisitorFactory(QObject* parent = nullptr) : QObject(parent) {}
 
-    // Создаёт нового посетителя с данным именем и ключом
     Visitor* createVisitor(const QString& name, int keyID) {
         Visitor* v = new Visitor(name, keyID, this);
         return v;

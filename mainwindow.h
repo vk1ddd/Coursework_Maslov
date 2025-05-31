@@ -6,6 +6,8 @@
 #include "visitor.h"
 #include "visitorfactory.h"
 #include <QVector>
+#include <QTimer>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -25,6 +27,11 @@ private slots:
     void onAddVisitor();
     void onKeyReaderClicked();
 
+    void startAptAnimation();
+    void startIntercomAnimation();
+    void onTabIntercomChanged(int index);
+    void onTabApartmentChanged(int index);
+
 private:
     Ui::MainWindow *ui;
     QList<Apartment*> allApartments;
@@ -34,6 +41,11 @@ private:
 
     VisitorFactory m_visitorFactory;
     QVector<Visitor*> m_visitors;
+
+    QString pendingTextToApt;
+    QString pendingTextToIntercom;
+    QTimer animationTimer;
+    int animationIndex;
 };
 
 #endif // MAINWINDOW_H

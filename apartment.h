@@ -24,14 +24,12 @@ public slots:
     void toggleBlock();
     void pressOpen();
     void receiveCall();
-    void sendTextToPanel(const QString& text);
 
 signals:
     void callStarted(int apartmentNumber);
     void callBlocked(int apartmentNumber);
     void blockStateChanged(int apartmentNumber, bool isBlocked);
     void openRequested(int apartmentNumber);
-    void apartmentText(int apartmentNumber, const QString& text);
 };
 
 

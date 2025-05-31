@@ -23,12 +23,10 @@ public:
 
 public slots:
     void pressButton(int apartmentID);
-    void sendText(const QString& text);
 
 signals:
     // Сигнал для IntercomSystem и Panel о звонке НЕ ЗАБЫТЬ!
     void buttonPressed(int apartmentID);
-    void visitorText(const QString& text);
 };
 
 

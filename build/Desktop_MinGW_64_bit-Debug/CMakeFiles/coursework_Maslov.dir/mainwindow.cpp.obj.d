@@ -361,6 +361,9 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:\Users\ivanu\QT\coursework_Maslov\visitorfactory.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVector \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvector.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QTimer \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtimer.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbasictimer.h \
  C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_Maslov_autogen/include/ui_mainwindow.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVariant \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvariant.h \
@@ -389,11 +392,15 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qrubberband.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qframe.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QLabel \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qlabel.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qpicture.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qiodevice.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextdocument.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qurl.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QLineEdit \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qlineedit.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextcursor.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextdocument.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qurl.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextformat.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qpen.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextoption.h \
@@ -414,9 +421,6 @@ CMakeFiles/coursework_Maslov.dir/mainwindow.cpp.obj: \
  C:\Users\ivanu\QT\coursework_Maslov\intercomsystem.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QMap \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmap.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QTimer \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtimer.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbasictimer.h \
  C:\Users\ivanu\QT\coursework_Maslov\panel.h \
  C:\Users\ivanu\QT\coursework_Maslov\accessjournal.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QList \

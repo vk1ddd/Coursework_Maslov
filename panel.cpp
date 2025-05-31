@@ -45,17 +45,6 @@ void Panel::receiveKey(int keyID)
     emit keyPresented(keyID);
 }
 
-void Panel::sendTextToApartment(int apartmentID, const QString& text)
-{
-    if (!m_buttons.contains(apartmentID)) {
-        qWarning() << "Panel::sendTextToApartment: no such apartment" << apartmentID;
-        return;
-    }
-    Apartment* apt = m_buttons.value(apartmentID);
-    qDebug() << "Panel: sending text to apartment" << apartmentID << ":" << text;
-    apt->sendTextToPanel(text);
-}
-
 void Panel::inputSpecial(QChar c) {
     if (c == '*') {
         m_specialMode = true;

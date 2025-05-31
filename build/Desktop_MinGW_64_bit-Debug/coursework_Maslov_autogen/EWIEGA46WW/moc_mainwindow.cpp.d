@@ -200,6 +200,7 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QString \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QTimer \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVector \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20memory.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20type_traits.h \
@@ -212,6 +213,7 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qatomic.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qatomic_cxx11.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbasicatomic.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbasictimer.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbindingstorage.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbytearray.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbytearrayalgorithms.h \
@@ -294,6 +296,7 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtextstream.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtimer.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtmetamacros.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtnoop.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtpreprocessorsupport.h \

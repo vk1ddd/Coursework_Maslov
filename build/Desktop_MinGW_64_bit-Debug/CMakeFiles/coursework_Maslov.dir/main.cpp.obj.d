@@ -361,6 +361,9 @@ CMakeFiles/coursework_Maslov.dir/main.cpp.obj: \
  C:\Users\ivanu\QT\coursework_Maslov\visitorfactory.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVector \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qvector.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QTimer \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qtimer.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbasictimer.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QApplication \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qapplication.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcoreapplication.h \

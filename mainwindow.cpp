@@ -13,6 +13,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Сразу ставим дверной стекед на закрытое
     ui->stackedDoor->setCurrentWidget(ui->lockDoor);
+    ui->dialogContainerIntercom->setVisible(false);
+    ui->dialogContainerApt     ->setVisible(false);
 
 
 
@@ -69,6 +71,11 @@ MainWindow::MainWindow(QWidget *parent)
         ui->tabdoor->setCurrentWidget(ui->tabBuilding);
         ui->stackedApartment->setCurrentWidget(ui->building);
 
+        pendingTextToApt.clear();
+        pendingTextToIntercom.clear();
+        ui->dialogContainerIntercom->setVisible(true);
+        ui->dialogContainerApt     ->setVisible(true);
+
         auto b = findChild<QPushButton*>(QString("app%1").arg(aptID));
         if (b) b->setStyleSheet("border:2px solid yellow;");
     });
@@ -96,6 +103,9 @@ MainWindow::MainWindow(QWidget *parent)
 
         ui->stackedApartment->setCurrentWidget(ui->building);
         ui->tabdoor->setCurrentWidget(ui->tabBuilding);
+
+        ui->dialogContainerIntercom->setVisible(false);
+        ui->dialogContainerApt     ->setVisible(false);
     });
 
     connect(ui->btnOpenFromApt, &QPushButton::clicked, this, [this]() {
@@ -103,9 +113,12 @@ MainWindow::MainWindow(QWidget *parent)
             Apartment* apt = allApartments.at(m_currentApartmentID - 1);
             apt->pressOpen();
 
-            QTimer::singleShot(2000, this, [](){
+            QTimer::singleShot(6000, this, [](){
                 Door::instance().close();
             });
+
+            ui->dialogContainerIntercom->setVisible(false);
+            ui->dialogContainerApt     ->setVisible(false);
         } else {
             qDebug() << "Open denied: currentApartment" << m_currentApartmentID
                      << "lastCalled" << m_lastCalledApartment;
@@ -122,6 +135,43 @@ MainWindow::MainWindow(QWidget *parent)
 
     connect(ui->btnKeyReader, &QPushButton::clicked,
             this, &MainWindow::onKeyReaderClicked);
+
+
+
+
+
+
+    connect(ui->tabdoor, &QTabWidget::currentChanged,
+            this, &MainWindow::onTabIntercomChanged);
+    connect(ui->stackedApartment, &QStackedWidget::currentChanged,
+            this, &MainWindow::onTabApartmentChanged);
+
+    connect(ui->btnSendIntercom, &QPushButton::clicked, this, [this](){
+        QString text = ui->lineEditSendIntercom->text();
+
+        ui->lineEditSendIntercom->clear();
+        ui->labelReceiveIntercom->setVisible(false);
+
+        pendingTextToApt = text;
+
+        if (ui->stackedApartment->currentWidget() == ui->handset) {
+            startAptAnimation();
+        }
+    });
+
+
+
+    connect(ui->btnSendApt, &QPushButton::clicked, this, [this](){
+        QString text = ui->lineEditSendApt->text();
+        ui->lineEditSendApt->clear();
+        ui->labelReceiveApt->setVisible(false);
+        pendingTextToIntercom = text;
+        if (ui->tabdoor->currentWidget() == ui->tabIntercom) {
+            startIntercomAnimation();
+        }
+    });
+
+
 
 
 
@@ -168,6 +218,73 @@ void MainWindow::onKeyReaderClicked() {
     QTimer::singleShot(2000, this, [](){
         Door::instance().close();
     });
+}
+
+void MainWindow::startAptAnimation() {
+    animationTimer.stop();
+    disconnect(&animationTimer, &QTimer::timeout, this, nullptr);
+
+    ui->labelReceiveApt->setText("");
+    ui->labelReceiveApt->setVisible(true);
+    animationIndex = 0;
+    connect(&animationTimer, &QTimer::timeout, this, [this]() {
+        if (animationIndex < pendingTextToApt.length()) {
+            ui->labelReceiveApt->setText(
+                ui->labelReceiveApt->text() + pendingTextToApt[animationIndex]
+                );
+            animationIndex++;
+        } else {
+            animationTimer.stop();
+            QTimer::singleShot(2000, this, [this](){
+                ui->labelReceiveApt->setVisible(false);
+            });
+        }
+    });
+    animationTimer.start(100);
+}
+
+void MainWindow::startIntercomAnimation() {
+    animationTimer.stop();
+    disconnect(&animationTimer, &QTimer::timeout, this, nullptr);
+
+    ui->labelReceiveIntercom->setText("");
+    ui->labelReceiveIntercom->setVisible(true);
+    animationIndex = 0;
+    connect(&animationTimer, &QTimer::timeout, this, [this]() {
+        if (animationIndex < pendingTextToIntercom.length()) {
+            ui->labelReceiveIntercom->setText(
+                ui->labelReceiveIntercom->text() + pendingTextToIntercom[animationIndex]
+                );
+            animationIndex++;
+        } else {
+            animationTimer.stop();
+            QTimer::singleShot(2000, this, [this](){
+                ui->labelReceiveIntercom->setVisible(false);
+            });
+        }
+    });
+    animationTimer.start(100);
+}
+
+
+void MainWindow::onTabIntercomChanged(int index)
+{
+    if (ui->tabdoor->widget(index) == ui->tabIntercom
+        && !pendingTextToIntercom.isEmpty()) {
+        ui->labelReceiveIntercom->clear();
+        ui->labelReceiveIntercom->setVisible(true);
+        startIntercomAnimation();
+    }
+}
+
+void MainWindow::onTabApartmentChanged(int index)
+{
+    if (ui->stackedApartment->widget(index) == ui->handset
+        && !pendingTextToApt.isEmpty()) {
+        ui->labelReceiveApt->clear();
+        ui->labelReceiveApt->setVisible(true);
+        startAptAnimation();
+    }
 }
 
 

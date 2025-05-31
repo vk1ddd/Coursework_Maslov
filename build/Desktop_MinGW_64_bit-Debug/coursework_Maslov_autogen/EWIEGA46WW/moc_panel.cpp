@@ -44,8 +44,6 @@ static constexpr auto qt_meta_stringdata_CLASSPanelENDCLASS = QtMocHelpers::stri
     "apartmentID",
     "keyPresented",
     "keyID",
-    "apartmentTextReceived",
-    "text",
     "bufferChanged",
     "newBuffer",
     "callError",
@@ -55,33 +53,29 @@ static constexpr auto qt_meta_stringdata_CLASSPanelENDCLASS = QtMocHelpers::stri
     "digit",
     "pressCall",
     "receiveKey",
-    "sendTextToApartment",
     "inputSpecial",
     "c"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSPanelENDCLASS_t {
-    uint offsetsAndSizes[40];
+    uint offsetsAndSizes[34];
     char stringdata0[6];
     char stringdata1[14];
     char stringdata2[1];
     char stringdata3[12];
     char stringdata4[13];
     char stringdata5[6];
-    char stringdata6[22];
-    char stringdata7[5];
-    char stringdata8[14];
-    char stringdata9[10];
-    char stringdata10[10];
-    char stringdata11[19];
-    char stringdata12[5];
-    char stringdata13[11];
-    char stringdata14[6];
-    char stringdata15[10];
-    char stringdata16[11];
-    char stringdata17[20];
-    char stringdata18[13];
-    char stringdata19[2];
+    char stringdata6[14];
+    char stringdata7[10];
+    char stringdata8[10];
+    char stringdata9[19];
+    char stringdata10[5];
+    char stringdata11[11];
+    char stringdata12[6];
+    char stringdata13[10];
+    char stringdata14[11];
+    char stringdata15[13];
+    char stringdata16[2];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSPanelENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -93,20 +87,17 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSPanelENDCLASS_t qt_meta_stringd
         QT_MOC_LITERAL(21, 11),  // "apartmentID"
         QT_MOC_LITERAL(33, 12),  // "keyPresented"
         QT_MOC_LITERAL(46, 5),  // "keyID"
-        QT_MOC_LITERAL(52, 21),  // "apartmentTextReceived"
-        QT_MOC_LITERAL(74, 4),  // "text"
-        QT_MOC_LITERAL(79, 13),  // "bufferChanged"
-        QT_MOC_LITERAL(93, 9),  // "newBuffer"
-        QT_MOC_LITERAL(103, 9),  // "callError"
-        QT_MOC_LITERAL(113, 18),  // "specialCodeEntered"
-        QT_MOC_LITERAL(132, 4),  // "code"
-        QT_MOC_LITERAL(137, 10),  // "inputDigit"
-        QT_MOC_LITERAL(148, 5),  // "digit"
-        QT_MOC_LITERAL(154, 9),  // "pressCall"
-        QT_MOC_LITERAL(164, 10),  // "receiveKey"
-        QT_MOC_LITERAL(175, 19),  // "sendTextToApartment"
-        QT_MOC_LITERAL(195, 12),  // "inputSpecial"
-        QT_MOC_LITERAL(208, 1)   // "c"
+        QT_MOC_LITERAL(52, 13),  // "bufferChanged"
+        QT_MOC_LITERAL(66, 9),  // "newBuffer"
+        QT_MOC_LITERAL(76, 9),  // "callError"
+        QT_MOC_LITERAL(86, 18),  // "specialCodeEntered"
+        QT_MOC_LITERAL(105, 4),  // "code"
+        QT_MOC_LITERAL(110, 10),  // "inputDigit"
+        QT_MOC_LITERAL(121, 5),  // "digit"
+        QT_MOC_LITERAL(127, 9),  // "pressCall"
+        QT_MOC_LITERAL(137, 10),  // "receiveKey"
+        QT_MOC_LITERAL(148, 12),  // "inputSpecial"
+        QT_MOC_LITERAL(161, 1)   // "c"
     },
     "Panel",
     "callRequested",
@@ -114,8 +105,6 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSPanelENDCLASS_t qt_meta_stringd
     "apartmentID",
     "keyPresented",
     "keyID",
-    "apartmentTextReceived",
-    "text",
     "bufferChanged",
     "newBuffer",
     "callError",
@@ -125,7 +114,6 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSPanelENDCLASS_t qt_meta_stringd
     "digit",
     "pressCall",
     "receiveKey",
-    "sendTextToApartment",
     "inputSpecial",
     "c"
 };
@@ -139,42 +127,38 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSPanelENDCLASS[] = {
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+       9,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       6,       // signalCount
+       5,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   80,    2, 0x06,    1 /* Public */,
-       4,    1,   83,    2, 0x06,    3 /* Public */,
-       6,    2,   86,    2, 0x06,    5 /* Public */,
-       8,    1,   91,    2, 0x06,    8 /* Public */,
-      10,    0,   94,    2, 0x06,   10 /* Public */,
-      11,    1,   95,    2, 0x06,   11 /* Public */,
+       1,    1,   68,    2, 0x06,    1 /* Public */,
+       4,    1,   71,    2, 0x06,    3 /* Public */,
+       6,    1,   74,    2, 0x06,    5 /* Public */,
+       8,    0,   77,    2, 0x06,    7 /* Public */,
+       9,    1,   78,    2, 0x06,    8 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      13,    1,   98,    2, 0x0a,   13 /* Public */,
-      15,    0,  101,    2, 0x0a,   15 /* Public */,
-      16,    1,  102,    2, 0x0a,   16 /* Public */,
-      17,    2,  105,    2, 0x0a,   18 /* Public */,
-      18,    1,  110,    2, 0x0a,   21 /* Public */,
+      11,    1,   81,    2, 0x0a,   10 /* Public */,
+      13,    0,   84,    2, 0x0a,   12 /* Public */,
+      14,    1,   85,    2, 0x0a,   13 /* Public */,
+      15,    1,   88,    2, 0x0a,   15 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int,    3,
     QMetaType::Void, QMetaType::Int,    5,
-    QMetaType::Void, QMetaType::Int, QMetaType::QString,    3,    7,
-    QMetaType::Void, QMetaType::QString,    9,
+    QMetaType::Void, QMetaType::QString,    7,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   12,
+    QMetaType::Void, QMetaType::QString,   10,
 
  // slots: parameters
-    QMetaType::Void, QMetaType::Int,   14,
+    QMetaType::Void, QMetaType::Int,   12,
     QMetaType::Void,
     QMetaType::Void, QMetaType::Int,    5,
-    QMetaType::Void, QMetaType::Int, QMetaType::QString,    3,    7,
-    QMetaType::Void, QMetaType::QChar,   19,
+    QMetaType::Void, QMetaType::QChar,   16,
 
        0        // eod
 };
@@ -194,10 +178,6 @@ Q_CONSTINIT const QMetaObject Panel::staticMetaObject = { {
         // method 'keyPresented'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        // method 'apartmentTextReceived'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
         // method 'bufferChanged'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
@@ -214,10 +194,6 @@ Q_CONSTINIT const QMetaObject Panel::staticMetaObject = { {
         // method 'receiveKey'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        // method 'sendTextToApartment'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
         // method 'inputSpecial'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QChar, std::false_type>
@@ -233,15 +209,13 @@ void Panel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
         switch (_id) {
         case 0: _t->callRequested((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 1: _t->keyPresented((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 2: _t->apartmentTextReceived((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
-        case 3: _t->bufferChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
-        case 4: _t->callError(); break;
-        case 5: _t->specialCodeEntered((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
-        case 6: _t->inputDigit((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 7: _t->pressCall(); break;
-        case 8: _t->receiveKey((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 9: _t->sendTextToApartment((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
-        case 10: _t->inputSpecial((*reinterpret_cast< std::add_pointer_t<QChar>>(_a[1]))); break;
+        case 2: _t->bufferChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 3: _t->callError(); break;
+        case 4: _t->specialCodeEntered((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 5: _t->inputDigit((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 6: _t->pressCall(); break;
+        case 7: _t->receiveKey((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 8: _t->inputSpecial((*reinterpret_cast< std::add_pointer_t<QChar>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -261,30 +235,23 @@ void Panel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
             }
         }
         {
-            using _t = void (Panel::*)(int , const QString & );
-            if (_t _q_method = &Panel::apartmentTextReceived; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 2;
-                return;
-            }
-        }
-        {
             using _t = void (Panel::*)(const QString & );
             if (_t _q_method = &Panel::bufferChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 3;
+                *result = 2;
                 return;
             }
         }
         {
             using _t = void (Panel::*)();
             if (_t _q_method = &Panel::callError; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 4;
+                *result = 3;
                 return;
             }
         }
         {
             using _t = void (Panel::*)(const QString & );
             if (_t _q_method = &Panel::specialCodeEntered; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 5;
+                *result = 4;
                 return;
             }
         }
@@ -310,13 +277,13 @@ int Panel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 9)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 9;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 9)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 11;
+        _id -= 9;
     }
     return _id;
 }
@@ -336,29 +303,22 @@ void Panel::keyPresented(int _t1)
 }
 
 // SIGNAL 2
-void Panel::apartmentTextReceived(int _t1, const QString & _t2)
+void Panel::bufferChanged(const QString & _t1)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 
 // SIGNAL 3
-void Panel::bufferChanged(const QString & _t1)
+void Panel::callError()
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
 }
 
 // SIGNAL 4
-void Panel::callError()
-{
-    QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
-}
-
-// SIGNAL 5
 void Panel::specialCodeEntered(const QString & _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 5, _a);
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
 }
 QT_WARNING_POP
