@@ -561,6 +561,19 @@ border-color: rgb(0, 0, 0);</string>
        </property>
       </widget>
      </widget>
+     <widget class="QPushButton" name="btnShowJournal">
+      <property name="geometry">
+       <rect>
+        <x>449</x>
+        <y>0</y>
+        <width>51</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Журнал</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tabBuilding">
      <property name="styleSheet">

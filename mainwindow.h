@@ -7,6 +7,7 @@
 #include "visitorfactory.h"
 #include <QVector>
 #include <QTimer>
+#include "journaldialog.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -32,6 +33,8 @@ private slots:
     void onTabIntercomChanged(int index);
     void onTabApartmentChanged(int index);
 
+    void onShowJournalClicked();
+
 private:
     Ui::MainWindow *ui;
     QList<Apartment*> allApartments;
@@ -46,6 +49,9 @@ private:
     QString pendingTextToIntercom;
     QTimer animationTimer;
     int animationIndex;
+
+    JournalDialog* m_journalDialog = nullptr;
+    QList<JournalEntry> m_consoleArchive;
 };
 
 #endif // MAINWINDOW_H

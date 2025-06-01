@@ -53,6 +53,7 @@ public:
     QLineEdit *lineEditSendIntercom;
     QLabel *labelReceiveIntercom;
     QPushButton *btnSendIntercom;
+    QPushButton *btnShowJournal;
     QWidget *tabBuilding;
     QStackedWidget *stackedApartment;
     QWidget *building;
@@ -259,6 +260,9 @@ public:
         btnSendIntercom->setObjectName("btnSendIntercom");
         btnSendIntercom->setGeometry(QRect(50, 220, 80, 31));
         btnSendIntercom->setStyleSheet(QString::fromUtf8("background-color: rgb(52, 33, 14);"));
+        btnShowJournal = new QPushButton(tabIntercom);
+        btnShowJournal->setObjectName("btnShowJournal");
+        btnShowJournal->setGeometry(QRect(449, 0, 51, 24));
         tabdoor->addTab(tabIntercom, QString());
         tabBuilding = new QWidget();
         tabBuilding->setObjectName("tabBuilding");
@@ -443,6 +447,7 @@ public:
         addVisitor->setText(QCoreApplication::translate("MainWindow", "+", nullptr));
         labelReceiveIntercom->setText(QString());
         btnSendIntercom->setText(QCoreApplication::translate("MainWindow", "\320\236\321\202\320\277\321\200\320\260\320\262\320\270\321\202\321\214", nullptr));
+        btnShowJournal->setText(QCoreApplication::translate("MainWindow", "\320\226\321\203\321\200\320\275\320\260\320\273", nullptr));
         tabdoor->setTabText(tabdoor->indexOf(tabIntercom), QCoreApplication::translate("MainWindow", "\320\224\320\276\320\274\320\276\321\204\320\276\320\275", nullptr));
         app6->setText(QCoreApplication::translate("MainWindow", "6", nullptr));
         app7->setText(QCoreApplication::translate("MainWindow", "7", nullptr));

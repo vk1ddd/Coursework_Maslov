@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_Maslov_autogen/mocs_compilation.cpp" "CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/coursework_Maslov_autogen/mocs_compilation.cpp.obj.d"
   "C:/Users/ivanu/QT/coursework_Maslov/door.cpp" "CMakeFiles/coursework_Maslov.dir/door.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/door.cpp.obj.d"
   "C:/Users/ivanu/QT/coursework_Maslov/intercomsystem.cpp" "CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.obj.d"
+  "C:/Users/ivanu/QT/coursework_Maslov/journaldialog.cpp" "CMakeFiles/coursework_Maslov.dir/journaldialog.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/journaldialog.cpp.obj.d"
   "C:/Users/ivanu/QT/coursework_Maslov/journalentry.cpp" "CMakeFiles/coursework_Maslov.dir/journalentry.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/journalentry.cpp.obj.d"
   "C:/Users/ivanu/QT/coursework_Maslov/keyreader.cpp" "CMakeFiles/coursework_Maslov.dir/keyreader.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/keyreader.cpp.obj.d"
   "C:/Users/ivanu/QT/coursework_Maslov/main.cpp" "CMakeFiles/coursework_Maslov.dir/main.cpp.obj" "gcc" "CMakeFiles/coursework_Maslov.dir/main.cpp.obj.d"

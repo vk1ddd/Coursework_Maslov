@@ -343,6 +343,30 @@ intercomsystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.s
 .PHONY : intercomsystem.cpp.s
 
+journaldialog.obj: journaldialog.cpp.obj
+.PHONY : journaldialog.obj
+
+# target to build an object file
+journaldialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/journaldialog.cpp.obj
+.PHONY : journaldialog.cpp.obj
+
+journaldialog.i: journaldialog.cpp.i
+.PHONY : journaldialog.i
+
+# target to preprocess a source file
+journaldialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/journaldialog.cpp.i
+.PHONY : journaldialog.cpp.i
+
+journaldialog.s: journaldialog.cpp.s
+.PHONY : journaldialog.s
+
+# target to generate assembly for a file
+journaldialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursework_Maslov.dir\build.make CMakeFiles/coursework_Maslov.dir/journaldialog.cpp.s
+.PHONY : journaldialog.cpp.s
+
 journalentry.obj: journalentry.cpp.obj
 .PHONY : journalentry.obj
 
@@ -568,6 +592,9 @@ help:
 	@echo ... intercomsystem.obj
 	@echo ... intercomsystem.i
 	@echo ... intercomsystem.s
+	@echo ... journaldialog.obj
+	@echo ... journaldialog.i
+	@echo ... journaldialog.s
 	@echo ... journalentry.obj
 	@echo ... journalentry.i
 	@echo ... journalentry.s

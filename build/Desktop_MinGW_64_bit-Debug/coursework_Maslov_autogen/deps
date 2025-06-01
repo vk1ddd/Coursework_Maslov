@@ -239,6 +239,7 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVector \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20memory.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20type_traits.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qalgorithms.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qanystringview.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qarraydata.h \
@@ -280,6 +281,7 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qhash.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qhashfunctions.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qiodevicebase.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qitemselectionmodel.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qiterable.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qiterator.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qline.h \
@@ -305,6 +307,7 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qprocessordetection.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qrect.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qrefcount.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qregularexpression.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qscopedpointer.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qscopeguard.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qset.h \
@@ -374,13 +377,28 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtguiexports.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtguiglobal.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtransform.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qvalidator.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qwindowdefs.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QDialog \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QTableWidget \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractitemdelegate.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractitemview.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractscrollarea.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractslider.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractspinbox.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qdialog.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qframe.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qmainwindow.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qrubberband.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qsizepolicy.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qslider.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qstyle.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qstyleoption.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabbar.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtableview.h \
+	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtablewidget.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgets-config.h \
 	C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsexports.h \
@@ -534,6 +552,8 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Users/ivanu/QT/coursework_Maslov/door.h \
 	C:/Users/ivanu/QT/coursework_Maslov/intercomsystem.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/intercomsystem.h \
+	C:/Users/ivanu/QT/coursework_Maslov/journaldialog.cpp \
+	C:/Users/ivanu/QT/coursework_Maslov/journaldialog.h \
 	C:/Users/ivanu/QT/coursework_Maslov/journalentry.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/journalentry.h \
 	C:/Users/ivanu/QT/coursework_Maslov/keyreader.cpp \
@@ -551,6 +571,7 @@ coursework_Maslov_autogen/timestamp: \
 	C:/Users/ivanu/QT/coursework_Maslov/visitordialog.cpp \
 	C:/Users/ivanu/QT/coursework_Maslov/visitordialog.h \
 	C:/Users/ivanu/QT/coursework_Maslov/visitorfactory.h \
+	C:/Users/ivanu/QT/coursework_Maslov/journaldialog.ui \
 	C:/Users/ivanu/QT/coursework_Maslov/mainwindow.ui \
 	C:/Users/ivanu/QT/coursework_Maslov/visitordialog.ui \
 	C:/Qt/qtcreator-15.0.1/Tools/CMake_64/bin/cmake.exe

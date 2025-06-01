@@ -35,6 +35,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         intercomsystem.h intercomsystem.cpp
         visitordialog.h visitordialog.cpp visitordialog.ui
         visitorfactory.h
+        journaldialog.h journaldialog.cpp journaldialog.ui
+
+
 
 
     )

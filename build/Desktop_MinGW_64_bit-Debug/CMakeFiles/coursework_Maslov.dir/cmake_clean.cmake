@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/coursework_Maslov.dir/door.cpp.obj.d"
   "CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.obj"
   "CMakeFiles/coursework_Maslov.dir/intercomsystem.cpp.obj.d"
+  "CMakeFiles/coursework_Maslov.dir/journaldialog.cpp.obj"
+  "CMakeFiles/coursework_Maslov.dir/journaldialog.cpp.obj.d"
   "CMakeFiles/coursework_Maslov.dir/journalentry.cpp.obj"
   "CMakeFiles/coursework_Maslov.dir/journalentry.cpp.obj.d"
   "CMakeFiles/coursework_Maslov.dir/keyreader.cpp.obj"

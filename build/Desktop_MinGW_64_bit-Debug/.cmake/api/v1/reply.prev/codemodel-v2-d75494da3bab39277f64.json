@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-810b6fdf943ebb1d05ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "coursework_Maslov",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "coursework_Maslov::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coursework_Maslov-Debug-a0d9b9d1313303b96737.json",
+					"name" : "coursework_Maslov",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coursework_Maslov_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coursework_Maslov_autogen-Debug-a3082baa0911c2f7713b.json",
+					"name" : "coursework_Maslov_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coursework_Maslov_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coursework_Maslov_autogen_timestamp_deps-Debug-4899d9165a2e853da879.json",
+					"name" : "coursework_Maslov_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug",
+		"source" : "C:/Users/ivanu/QT/coursework_Maslov"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

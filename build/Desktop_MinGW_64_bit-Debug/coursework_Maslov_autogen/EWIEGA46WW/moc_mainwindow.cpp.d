@@ -198,12 +198,14 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QDateTime \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QString \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QTimer \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QVector \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20memory.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/q20type_traits.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qalgorithms.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qanystringview.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qarraydata.h \
@@ -219,6 +221,7 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbytearraylist.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qbytearrayview.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcalendar.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qchar.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcompare.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcompare_impl.h \
@@ -231,6 +234,7 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qcontiguouscache.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdarwinhelpers.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdatastream.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdatetime.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qdebug.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qexceptionhandling.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qflags.h \
@@ -243,10 +247,12 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qhash.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qhashfunctions.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qiodevicebase.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qitemselectionmodel.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qiterable.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qiterator.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qline.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlist.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlocale.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlogging.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmalloc.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qmap.h \
@@ -267,6 +273,7 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qprocessordetection.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qrect.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qrefcount.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qregularexpression.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qscopedpointer.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qscopeguard.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qset.h \
@@ -336,16 +343,35 @@ C:/Users/ivanu/QT/coursework_Maslov/build/Desktop_MinGW_64_bit-Debug/coursework_
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtguiexports.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtguiglobal.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtransform.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qvalidator.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qwindowdefs.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QDialog \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QTableWidget \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractitemdelegate.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractitemview.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractscrollarea.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractslider.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractspinbox.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qdialog.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qframe.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qmainwindow.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qrubberband.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qsizepolicy.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qslider.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qstyle.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qstyleoption.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabbar.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtableview.h \
+  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtablewidget.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
   C:/Users/ivanu/QT/coursework_Maslov/apartment.h \
+  C:/Users/ivanu/QT/coursework_Maslov/journaldialog.h \
+  C:/Users/ivanu/QT/coursework_Maslov/journalentry.h \
   C:/Users/ivanu/QT/coursework_Maslov/visitor.h \
   C:/Users/ivanu/QT/coursework_Maslov/visitorfactory.h

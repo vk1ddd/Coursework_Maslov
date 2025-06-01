@@ -5,7 +5,7 @@ AccessJournal::AccessJournal(QObject* parent)
     : QObject(parent)
 {
     m_timer = new QTimer(this);
-    m_timer->setInterval(24 * 60 * 60 * 1000); // 86 400 000мс = 24 часа
+    m_timer->setInterval(60 * 1000);
     connect(m_timer, &QTimer::timeout, this, &AccessJournal::sendJournal);
     m_timer->start();
 }
@@ -27,15 +27,9 @@ QList<JournalEntry> AccessJournal::getEntries() const
     return m_entries;
 }
 
-void AccessJournal::sendJournal()
-{
-    if (m_entries.isEmpty()) {
-        qDebug() << "AccessJournal: no entries to send";
-        return;
-    }
+void AccessJournal::sendJournal() {
+    if (m_entries.isEmpty()) return;
     emit journalSent(m_entries);
-    qDebug() << "AccessJournal: journalSent signal emitted with"
-             << m_entries.size() << "entries";
-
-    clear();
+    m_entries.clear();
 }
+

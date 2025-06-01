@@ -4,6 +4,9 @@
 #include "intercomsystem.h"
 #include "panel.h"
 #include "visitordialog.h"
+#include "journaldialog.h"
+#include "journalentry.h"
+#include "accessjournal.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -177,6 +180,23 @@ MainWindow::MainWindow(QWidget *parent)
 
 
 
+    connect(ui->btnShowJournal, &QPushButton::clicked,
+            this, &MainWindow::onShowJournalClicked);
+
+    connect(&IntercomSystem::instance().journal(), &AccessJournal::journalSent,
+            this, [&](const QList<JournalEntry>& entries){
+                m_consoleArchive.append(entries);
+                if (m_journalDialog && m_journalDialog->isVisible()) {
+                    m_journalDialog->setLogEntries(entries);
+                    m_journalDialog->setConsoleEntries(m_consoleArchive);
+                }
+            });
+
+
+
+
+
+
 
     connect(panel, &Panel::callError, this, [this]() {
         ui->lineEditNumber->setText("EROR");
@@ -285,6 +305,27 @@ void MainWindow::onTabApartmentChanged(int index)
         ui->labelReceiveApt->setVisible(true);
         startAptAnimation();
     }
+}
+
+
+void MainWindow::onShowJournalClicked()
+{
+    if (!m_journalDialog) {
+        m_journalDialog = new JournalDialog(this);
+        connect(m_journalDialog, &QDialog::finished, this, [this](){
+            m_journalDialog->setLogEntries({});
+            m_journalDialog->setConsoleEntries(m_consoleArchive);
+        });
+    }
+
+    QList<JournalEntry> currentEntries = IntercomSystem::instance().journal().getEntries();
+
+    m_journalDialog->setLogEntries(currentEntries);
+    m_journalDialog->setConsoleEntries(m_consoleArchive);
+
+    m_journalDialog->show();
+    m_journalDialog->raise();
+    m_journalDialog->activateWindow();
 }
 
 

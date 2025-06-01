@@ -35,6 +35,8 @@ public:
     void registerApartment(Apartment* apartment);
     Panel* panel() const { return m_panel; }
 
+    AccessJournal& journal() const { return *m_journal; }
+
 public slots:
     void routeCall(int apartmentID);
     void openDoorByButton(int apartmentID);

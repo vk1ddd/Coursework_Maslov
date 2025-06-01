@@ -3,6 +3,7 @@
 #include "EWIEGA46WW/moc_apartment.cpp"
 #include "EWIEGA46WW/moc_door.cpp"
 #include "EWIEGA46WW/moc_intercomsystem.cpp"
+#include "EWIEGA46WW/moc_journaldialog.cpp"
 #include "EWIEGA46WW/moc_keyreader.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_panel.cpp"
